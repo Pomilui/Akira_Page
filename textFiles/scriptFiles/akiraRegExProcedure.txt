@@ -1,0 +1,15 @@
+Akira Script Regex Procedure
+
+Need to Add:  Character names, speaker names, scene names, plot/setting descriptions?
+
+Need to mark:  scenes relating to Tetsuo's inferiority complex, bonding/breaking of social relationships between characters, important scenes.
+
+
+
+1:  Replaced all > (in the "timeframe" sections) with &gt; 
+
+2:  Searched all for \n{3,} and replaced all with \n\n
+
+3:  Searched all for \n\n and repalced all with </p>\n\n<p>
+
+4:  Manually deleted first <p> and last </p>
