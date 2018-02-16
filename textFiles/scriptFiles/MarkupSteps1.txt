@@ -1,0 +1,9 @@
+  Tagging speakers.
+
+   new line after digits.  make speaker all caps.
+
+   [0-9][0-9]\:[0-9][0-9]\n
+
+ replace \0
+
+  \n[a-z|A-Z|-]
