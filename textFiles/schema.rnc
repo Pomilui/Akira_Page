@@ -1,0 +1,22 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = akira
+akira = element akira {persName, controlScene, plot, action, place}
+persName = element persName {"#kaneda" | "#tetsuo"} #quantum-satire: You'll make an id ref sheet for these characters, and you refer to them with a hashtag. Will explain this in further detail in an issue...
+kaneda = attribute kaneda {"riding" | "gangLeader"}
+tetsuo = attribute tetsuo {"losing" | "gaining" | "wanting"}
+controlScene = element controlScene {text}
+plot = element plot {setting, analysis, background}
+setting = attribute setting {"friendsMeet"} #quantum-satire: You may want to change this to text to leave it open for multiple settings, then you can narrow and define your attribute values after you've worked with the script for a bit.
+analysis = attribute analysis {"struggle"}
+background = attribute background {"characterHistory"}
+action = element action {powers, yelling, riding}
+powers = attribute powers {"using" | "gaining" | "losing" | "wanting"}
+yelling = attribute yelling {"frustration"}
+riding = attribute riding {"motorCoils"} #quantum-satire: What are you referring to with this attribute value? If you want to only mark when they are riding, I would leave this as {text}. But, if they are doing specific actions while riding, you can add more attribute values.
+place = element place {highway, stadium, school, policeStation, lab}
+highway = attribute highway {"bikeBattle"}
+stadium = attribute stadium {"olympic"}
+school = attribute school {"vocational"}
+policeStation = attribute policeStation {"makeshift"}
+lab = attribute Lab {"Research"}
