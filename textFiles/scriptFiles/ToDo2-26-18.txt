@@ -1,0 +1,7 @@
+To Do
+
+1:  Restart on Regex/XML markup
+
+2:  Associate Schema
+
+3:  Verify, add to HTML page & use X-Query to make a table from elements in XML of script
