@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema.rnc" type="application/relax-ng-compact-syntax"?>
 <akira>
@@ -14,377 +15,371 @@
 <body>
 <number>1</number>
 <time>00:01:58,050 --> 00:02:02,929</time>
-<sp who="#name">
+<sp who="NEWSLADY">
 <l>Groups of unemployed workers,
 who have grown in number...</l>
 </sp>
 
 <number>2</number>
 <time>00:02:03,055 --> 00:02:07,683</time>
-<sp who="#name">
+<sp who="#News Lady">
 <l>due to tax reforms enacted by the former
 Prime Minister, are rioting all across the country.</l>
 </sp>
 
 <number>3</number>
 <time>00:02:07,809 --> 00:02:10,061</time>
-<sp who="#name">
+<sp who="#News Lady">
 <l>There is confusion among parliament members
 which was sparked by the comments...</l>
 </sp>
 
 <number>4</number>
 <time>00:02:10,187 --> 00:02:13,564</time>
-<sp who="#name">
+<sp who="#News Lady">
 <l>of Finance Minister Takanashi
 during the recent parliament inquiry.</l>
 </sp>
 
 <number>5</number>
 <time>00:02:13,690 --> 00:02:16,609</time>
-<sp who="#name">
+<sp who="#News Lady">
 <l>There seems to be no compromise in sight
 between the government and opposition.</l>
 </sp>
 
 <number>6</number>
 <time>00:02:16,735 --> 00:02:18,861</time>
-<sp who="#name">
+<sp who="#Bartender">
 <l>- Hey, there. Call it.</l>
 </l>
 </sp>
 
 <number>7</number>
 <time>00:02:18,862 --> 00:02:21,280</time>
-<sp who="">
-<l>- Hey, there. Call it.
-- Gimme somethin'. Three peanuts.</l>
+<sp who="#Bar Customer">
+<l>- Gimme somethin'. Three peanuts.</l>
 </sp>
 
 <number>8</number>
 <time>00:02:22,407 --> 00:02:24,033</time>
-<sp who="">
+<sp who="#Kaneda">
 <l>Let's see......</l>
 </sp>
 
 <number>9</number>
 <time>00:02:25,369 --> 00:02:26,452</time>
-<sp who="">
+<sp who="#Bartender">
 <l>Now, uh......</l>
 </sp>
 
 <number>10</number>
 <time>00:02:38,924 --> 00:02:41,467</time>
-<sp who="">
+<sp who="#Yamagata">
 <l>The Clown bastards are herded
 out on route number 5.</l>
 </sp>
 
 <number>11</number>
 <time>00:02:44,429 --> 00:02:47,139</time>
-<sp who="">
+<sp who="#Bartender">
 <l>Damn it, don't scare me like that.
 Open that damn door quietly.</l>
 </sp>
 
 <number>12</number>
 <time>00:02:47,265 --> 00:02:50,393</time>
-<sp who="">
+<sp who="#Yamagata">
 <l>You know, you wouldn't be so jumpy
 if you didn't have anything to hide.</l>
 </sp>
 
 <number>13</number>
 <time>00:02:53,021 --> 00:02:54,647</time>
-<sp who="">
+<sp who="#Yamagata">
 <l>Why don't you sell
 normal drinks for a change?</l>
 </sp>
 
 <number>14</number>
 <time>00:02:54,940 --> 00:02:58,734</time>
-<sp who="">
+<sp who="#Bartender">
 <l>How about buyin' somethin' for once?
 This ain't a hangout for damn street gangs.</l>
 </sp>
 
 <number>15</number>
 <time>00:02:58,860 --> 00:03:00,653</time>
-<sp who="">
+<sp who="#Yamagata">
 <l>Yeah, right!
 Drink your dog piss?</l>
 </sp>
 
 <number>16</number>
 <time>00:03:05,075 --> 00:03:07,994</time>
-<sp who="">
+<sp who="#Tetsuo">
 <l>Twin ceramic rotor drives
 on each wheel.</l>
 </sp>
 
 <number>17</number>
 <time>00:03:08,078 --> 00:03:10,287</time>
-<sp who="">
+<sp who="#Testsuo">
 <l>Let's see. And these are...</l>
 </sp>
 
 <number>18</number>
 <time>00:03:10,372 --> 00:03:14,625</time>
-<sp who="">
+<sp who="#Tetsuo">
 <l>computer-controlled
 antilock brakes.</l>
 </sp>
 
 <number>19</number>
 <time>00:03:14,751 --> 00:03:17,336</time>
-<sp who="">
+<sp who="#Tetsuo">
 <l>Huh, 200 horses at 12,000 R.P.M.</l>
 </sp>
 
 <number>20</number>
 <time>00:03:20,298 --> 00:03:22,675</time>
-<sp who="">
+<sp who="#Kaneda">
 <l>You want to ride it, Tetsuo?</l>
 </sp>
 
 <number>21</number>
 <time>00:03:22,801 --> 00:03:24,010</time>
-<sp who="">
+<sp who="#Yamagata">
 <l>All right! Let's hit it!</l>
 </sp>
 
 <number>22</number>
 <time>00:03:26,930 --> 00:03:30,266</time>
-<sp who="">
+<sp who="#Kandea">
 <l>I customized that bike for myself.
 It's too wild. You couldn't handle it.</l>
 </sp>
 
 <number>23</number>
 <time>00:03:31,476 --> 00:03:34,520</time>
-<sp who="">
+<sp who="#Yamagata">
 <l>I don't see how you could ride
 something crazy like that, man.</l>
 </sp>
 
 <number>24</number>
 <time>00:03:36,314 --> 00:03:37,273</time>
-<sp who="">
+<sp who="#Tetsuo">
 <l>Huh! I could.</l>
 </sp>
 
 <number>25</number>
 <time>00:03:37,482 --> 00:03:40,526</time>
-<sp who="">
+<sp who="#Kaneda">
 <l>Ha! If you want it so bad
 then steal one yourself.</l>
 </sp>
 
 <number>26</number>
 <time>00:04:47,135 --> 00:04:48,052</time>
-<sp who="">
+<sp who="#Lady Restaurant Guest">
 <l>- Unbelievable.</l>
 </sp>
 
 <number>27</number>
 <time>00:04:48,053 --> 00:04:49,053</time>
-<sp who="">
+<sp who="#Male Restaurant Guest">
 <l>- Unbelievable.
 - Punks!</l>
 </sp>
 
 <number>28</number>
 <time>00:04:51,890 --> 00:04:53,432</time>
-<sp who="">
+    <sp who="#Male Restaurant Guest">
 <l>Hey, waiter!
 Where are you going?</l>
 </sp>
 
 <number>29</number>
 <time>00:04:57,062 --> 00:04:59,939</time>
-<sp who="">
+<sp who="#Yamagata">
 <l>They ran into the alley!
 After 'em!</l>
 </sp>
 
 <number>30</number>
 <time>00:05:13,245 --> 00:05:15,955</time>
-<sp who="">
+<sp who="#Watanabe">
 <l>Quit foolin' around, you idiot!</l>
 </sp>
 
 <number>31</number>
 <time>00:05:19,417 --> 00:05:20,417</time>
-<sp who="">
+<sp who="#Tetsuo">
 <l>Fuck!</l>
 </sp>
 
 <number>32</number>
 <time>00:05:53,368 --> 00:05:54,410</time>
-<sp who="">
+<sp who="#Joker">
 <l>What?</l>
 </sp>
 
 <number>33</number>
 <time>00:06:24,482 --> 00:06:25,649</time>
-<sp who="">
+<sp who="#Joker">
 <l>- That's the......</l>
 </sp>
 
 <number>34</number>
 <time>00:06:25,650 --> 00:06:26,275</time>
-<sp who="">
+<sp who="#Kaneda">
 <l>- That's the......
 - Huh?</l>
 </sp>
 
 <number>35</number>
 <time>00:06:26,401 --> 00:06:28,194</time>
-<sp who="">
+<sp who="#Highway Policeman">
 <l>This is unit 375.</l>
 </sp>
 
 <number>36</number>
 <time>00:06:28,320 --> 00:06:33,365</time>
-<sp who="">
+<sp who="#Highway Policeman">
 <l>We've got reports of biker gangs fighting
 near the intersection of highway 14 South.</l>
 </sp>
 
 <number>37</number>
 <time>00:06:33,491 --> 00:06:36,285</time>
-<sp who="">
+<sp who="#Highway Policeman">
 <l>Request immediate assistance.
 Car 375 en route to the scene......</l>
 </sp>
 
 <number>38</number>
 <time>00:06:37,996 --> 00:06:39,455</time>
-<sp who="">
+<sp who="#Yamagata">
 <l>It's the cops.
 What should we do?</l>
 </sp>
 
 <number>39</number>
 <time>00:06:39,748 --> 00:06:42,499</time>
-<sp who="">
+<sp who="#Kaneda">
 <l>Damn it. My motor coils were
 just getting warmed up.</l>
 </sp>
 
 <number>40</number>
 <time>00:06:48,673 --> 00:06:51,884</time>
-<sp who="">
+<sp who="#Kaneda">
 <l>Bastards!
 Let's go, Tetsuo!</l>
 </sp>
 
 <number>41</number>
 <time>00:06:52,010 --> 00:06:53,302</time>
-<sp who="">
+<sp who="#Tetsuo">
 <l>I'm coming!</l>
 </sp>
-
 <number>42</number>
 <time>00:06:53,428 --> 00:06:54,303</time>
-<sp who="">
+<sp who="#Yamagata">
 <l>- Damn them!</l>
 </sp>
-
 <number>43</number>
 <time>00:06:54,304 --> 00:06:55,221</time>
-<sp who="">
+<sp who="#Kaneda">
 <l>- Damn them!
 - Come on!</l>
 </sp>
-
 <number>44</number>
 <time>00:07:04,272 --> 00:07:07,650</time>
-<sp who="">
+<sp who="#News Lady">
 <l>A skirmish has broken out between student
 protesters and riot police.</l>
 </sp>
-
 <number>45</number>
 <time>00:07:07,776 --> 00:07:10,736</time>
-<sp who="">
+    <sp who="#News Lady">
 <l>There appear to be some
 casualties. Next...</l>
 </sp>
-
 <number>46</number>
 <time>00:07:32,217 --> 00:07:34,343</time>
-<sp who="">
+<sp who="#Motorist 1">
 <l>Don't make me get out of this car!</l>
 </sp>
 
 <number>47</number>
 <time>00:07:34,469 --> 00:07:36,553</time>
-<sp who="">
+<sp who="#Motorist 2">
 <l>Jerk, I'm in a hurry!</l>
 </sp>
 
 <number>48</number>
 <time>00:07:51,695 --> 00:07:53,737</time>
-<sp who="">
+<sp who="#Motorist 3">
 <l>- What was that?</l>
 </sp>
 
 <number>49</number>
 <time>00:07:53,738 --> 00:07:55,114</time>
-<sp who="">
+<sp who="#Motorist 4">
 <l>- What was that?
-- Police is here!!</l>
+- Call the Police!</l>
 </sp>
 
 <number>50</number>
 <time>00:08:21,224 --> 00:08:24,727</time>
-<sp who="">
+<sp who="#Soldier 1">
 <l>This area is off limits!</l>
 </sp>
 
 <number>51</number>
 <time>00:08:24,978 --> 00:08:27,313</time>
-<sp who="">
+<sp who="#Soldier 1">
 <l>Go back! It's dangerous!</l>
 </sp>
 
 <number>52</number>
 <time>00:08:27,397 --> 00:08:28,647</time>
-<sp who="">
+<sp who="#Soldier 2">
 <l>Hey, something strange
 over there.</l>
 </sp>
 
 <number>53</number>
 <time>00:08:28,773 --> 00:08:30,316</time>
-<sp who="">
+<sp who="#Kei">
 <l>Let me through!
 Sorry.</l>
 </sp>
 
 <number>54</number>
 <time>00:08:30,442 --> 00:08:31,150</time>
-<sp who="">
+<sp who="#Bystander 1">
 <l>What're you doing?</l>
 </sp>
 
 <number>55</number>
 <time>00:08:39,617 --> 00:08:41,744</time>
-<sp who="">
+<sp who="#Bystander 2">
 <l>It's blood. Look!</l>
 </sp>
 
 <number>56</number>
 <time>00:08:42,203 --> 00:08:45,456</time>
-<sp who="">
+<sp who="#Kei">
 <l>Please let me through.
 Excuse me. Pardon me.</l>
 </sp>
 
 <number>57</number>
 <time>00:08:45,582 --> 00:08:47,249</time>
-<sp who="">
+<sp who="#Bystander 3">
 <l>Watch it, jerk!</l>
 </sp>
 
@@ -8499,3 +8494,4 @@ ought to be able to......</l>
 Because it has already begun.
 </body>
 </akira>
+
