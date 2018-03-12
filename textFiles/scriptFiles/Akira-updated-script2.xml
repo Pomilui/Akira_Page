@@ -1,6 +1,4 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema.rnc" type="application/relax-ng-compact-syntax"?>
 <akira>
     <teiHeader>
         <fileDesc>
@@ -52,7 +50,6 @@ between the government and opposition.</l>
 <time>00:02:16,735 --> 00:02:18,861</time>
 <sp who="#bartend">
 <l>- Hey, there. Call it.</l>
-</l>
 </sp>
 
 <number>7</number>
@@ -4198,7 +4195,7 @@ with me? Am I dreaming?</l>
 <l>These powers, are they real
 or just a hallucination?</l>
 </sp>
-<controlScene>
+<controlScene><!--ebb: This is associated with a well-formedness error somewhere around here.  -->
 <number>649</number>
 <time>00:59:40,842 --> 00:59:42,885</time>
 <sp who="#kaneda">
