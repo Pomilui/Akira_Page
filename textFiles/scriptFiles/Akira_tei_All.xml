@@ -854,7 +854,10 @@
    </teiHeader>
    <text>
       <body>
-         
+         <sp who="#nlady" select="overtake" ana="#someone" n="1" from="00:01:58,050" to="00:02:02,929">
+            <l>Groups of unemployed workers,
+               who have grown in number...</l>
+         </sp>
       </body>
    </text>
 </TEI>
