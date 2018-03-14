@@ -24,6 +24,16 @@
       <profileDesc>
          <particDesc><!--ebb: This is basically your cast list, and you can output it separately in HTML on your website if you like! Your list of xml:ids here is something we will use in your schema to control the attribute legal attribute values for @who on sp and @ana in the control scenes... -->
             <listPerson type="characters">
+               <person xml:id="akira">
+                  <persName>Akira</persName>
+               </person>
+               <person xml:id="ryu">
+                  <persName>Ryu</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Ryu</forename>
+                  </persName>
+               </person>
                <person xml:id="nlady">
                   <persName><roleName>News Lady</roleName></persName>
 
