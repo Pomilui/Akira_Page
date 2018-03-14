@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<?xml-model href="file:/E:/Coding%20%26%20Data%20Vis/Akira%20Project/akira-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<akira>
 AKIRA (1988) 
 
 Transcribed by UNKNOWN
@@ -5888,4 +5889,4 @@ ought to be able to......
 02:00:16,307 --> 02:00:19,685
 Because it has already begun.
 
-</root>
+</akira>

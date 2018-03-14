@@ -2,7 +2,9 @@ Akira Script Regex Procedure
 
 Need to Add:  Character names, speaker names, scene names, plot/setting descriptions?
 
-Need to mark:  scenes relating to Tetsuo's inferiority complex, bonding/breaking of social relationships between characters, important scenes.
+Need to mark:  scenes relating to Tetsuo's inferiority complex, bonding/breaking of social relationships between characters, important scenes, 
+               moments when characters are concerned about control, when someone exercises their control/loses control, drastic consequences from being in control or 
+               losing control
 
 
 
