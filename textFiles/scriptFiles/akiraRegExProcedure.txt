@@ -15,3 +15,11 @@ Need to mark:  scenes relating to Tetsuo's inferiority complex, bonding/breaking
 3:  Searched all for \n\n and repalced all with </p>\n\n<p>
 
 4:  Manually deleted first <p> and last </p>
+
+5:  Creating these character tags <Kaneda> <Tetsuo> <Kaisuke> <Kei> <Takashi> <Kaori> <Masaru>
+    <Ryu> <Mr. Nezu> <Colonel Shikishima> <Doctor Onishi> <Kiyoko> <Lady Miyako> <Watanabe> <Takeyama>
+
+6:  \n[a-z|A-Z|-] finds the upper and lowercase "Speech" sections.  Replacing them with \n<CHARACTERNAME>\n\n\n(whatever letter was found) 
+      adds some beginning character tags.  I could then search for all the punctuation marks that end a "speech" and add the end tags if necessary.
+
+    for copy/paste to find/replace screen in Regex:  \n<>\n\n\n  \n

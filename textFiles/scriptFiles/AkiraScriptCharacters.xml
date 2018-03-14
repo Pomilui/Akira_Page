@@ -14,35 +14,35 @@
 <body>
 <number>1</number>
 <time>00:01:58,050 --> 00:02:02,929</time>
-<sp who="">
+<sp who="#name">
 <l>Groups of unemployed workers,
 who have grown in number...</l>
 </sp>
 
 <number>2</number>
 <time>00:02:03,055 --> 00:02:07,683</time>
-<sp who="">
+<sp who="#name">
 <l>due to tax reforms enacted by the former
 Prime Minister, are rioting all across the country.</l>
 </sp>
 
 <number>3</number>
 <time>00:02:07,809 --> 00:02:10,061</time>
-<sp who="">
+<sp who="#name">
 <l>There is confusion among parliament members
 which was sparked by the comments...</l>
 </sp>
 
 <number>4</number>
 <time>00:02:10,187 --> 00:02:13,564</time>
-<sp who="">
+<sp who="#name">
 <l>of Finance Minister Takanashi
 during the recent parliament inquiry.</l>
 </sp>
 
 <number>5</number>
 <time>00:02:13,690 --> 00:02:16,609</time>
-<sp who="">
+<sp who="#name">
 <l>There seems to be no compromise in sight
 between the government and opposition.</l>
 </sp>

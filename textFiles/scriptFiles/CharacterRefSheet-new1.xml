@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idSheet>
+    <listPerson type="characters">
+        <person xml:id="nlady">
+            <persName>News Lady</persName>
+            <persName>
+                <surname></surname>
+                <middlename></middlename>
+                <forename>News Lady</forename>
+            </persName>
+        </person>
+        <person xml:id="bartend">
+            <persName>Harukiya Bartender</persName>
+            <persName>
+                <surname></surname>
+                <forename>Harukiya Bartender</forename>
+            </persName>
+        </person>
+        <person xml:id="barcust">
+            <persName>Bar Customer</persName>
+            <persName>
+                <surname></surname>
+                <forename>Bar Customer</forename>
+            </persName>
+        </person>
+        <person xml:id="kaneda">
+            <persName>Kaneda</persName>
+            <persName>
+                <surname>Shotaro</surname>
+                <forename>Kaneda</forename>
+            </persName>
+        </person>
+        <person xml:id="yamagata">
+            <persName>
+            <persName>Yamagata</persName>
+                <surname></surname>
+                <forename>Yamagata</forename>
+            </persName>
+        </person>
+        <person xml:id="tetsuo">
+            <persName>
+            <persName>Tetsuo Shima</persName>
+                <surname>Shima</surname>
+                <forename>Tetsuo</forename>
+            </persName>
+        </person>
+        <person xml:id="restgirl">
+            <persName>
+            <persName>Female Restaurant Guest</persName>
+                <surname></surname>
+                <forename>Female Guest</forename>
+            </persName>
+        </person>
+        <person xml:id="restguy">
+            <persName>
+            <persName>Male Restaurant Guest</persName>
+                <surname></surname>
+                <forename>Male Guest</forename>
+            </persName>
+        </person>
+    <person xml:id="takeyama">
+        <persName>
+        <persName>Yuji Takeyama</persName>
+            <surname>Takeyama</surname>
+            <forename>Yuji</forename>
+        </persName>
+    </person>
+        <person xml:id="joker">
+            <persName>
+            <persName>Joker</persName>
+                <surname></surname>
+                <forename>Joker</forename>
+            </persName>
+        </person>
+        <person xml:id="hwpolice">
+            <persName>
+            <persName>Highway Policeman</persName>
+                <surname></surname>
+                <forename>Highway Policeman</forename>
+            </persName>
+        </person>
+        <person xml:id="moto1">
+            <persName>
+            <persName>Motorist 1</persName>
+                <surname></surname>
+                <forename>Motorist 1</forename>
+            </persName>
+        </person>
+        <person xml:id="moto2">
+            <persName>
+            <persName>Motorist 2</persName>
+                <surname></surname>
+                <forename>Motorist 2</forename>
+            </persName>
+        </person>
+        <person xml:id="moto3">
+            <persName>
+            <persName>Motorist 3</persName>
+                <surname></surname>
+                <forename>Motorist 4</forename>
+            </persName>
+        </person>
+        <person xml:id="moto4">
+            <persName>
+            <persName>Motorist 4</persName>
+                <surname></surname>
+                <forename>Motorist 4</forename>
+            </persName>
+        </person>
+        <person xml:id="soldier1">
+            <persName>
+            <persName>Soldier 1</persName>
+                <surname></surname>
+                <forename>Soldier 1</forename>
+            </persName>
+        </person>
+        <person xml:id="soldier2">
+            <persName>
+            <persName>Soldier 2</persName>
+                <surname></surname>
+                <forename>Soldier 2</forename>
+            </persName>
+        </person>
+        <person xml:id="kei">
+            <persName>
+            <persName>Kei</persName>
+                <surname></surname>
+                <forename>Kei</forename>
+            </persName>
+        </person>
+    <person xml:id="bystand1">
+        <persName>Bystander 1</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 1</forename>
+        </persName>
+    </person>
+    <person xml:id="bystand2">
+        <persName>Bystander 2</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 2</forename>
+        </persName>
+    </person>
+    <person xml:id="bystand3">
+        <persName>Bystander 3</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 3</forename>
+        </persName>
+    </person>
+    <person xml:id="bystand4">
+        <persName>
+        <persName>Bystander 4</persName>
+            <surname></surname>
+            <forename>Bystander 4</forename>
+        </persName>
+    </person>
+    <person xml:id="soldier2">
+        <persName>
+        <persName>Soldier 2</persName>
+            <surname></surname>
+            <forename>Soldier 2</forename>
+        </persName>
+    </person>
+    <person xml:id="soldier3">
+        <persName>
+        <persName>Soldier 3</persName>
+            <surname></surname>
+            <forename>Soldier 3</forename>
+        </persName>
+    </person>
+    <person xml:id="captain1">
+        <persName>Riot Police Captian</persName>
+        <persName>
+            <surname></surname>
+            <forename>Riot Police Captian</forename>
+        </persName>
+    </person>
+    <person xml:id="revoguy1">
+        <persName>Revolutionist</persName>
+        <persName>
+            <surname></surname>
+            <forename>Revolutionist</forename>
+        </persName>
+    </person>
+    <person xml:id="colonel">
+        <persName>Colonel Shikishima</persName>
+        <persName>
+            <surname>Shikishima</surname>
+            <forename></forename>
+        </persName>
+    </person>
+    <person xml:id="clown1">
+        <persName>Clown 1</persName>
+        <persName>
+            <surname></surname>
+            <forename>Clown 1</forename>
+        </persName>
+    </person>
+    <person xml:id="clown2">
+        <persName>Clown 2</persName>
+        <persName>
+            <surname></surname>
+            <forename></forename>
+        </persName>
+    </person>
+    <person xml:id="masaru">
+        <persName>Masaru</persName>
+        <persName>
+            <surname></surname>
+            <forename>Masaru</forename>
+        </persName>
+    </person>
+        <person xml:id="capsule1">
+            <persName>Capsule Gang Member 1</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="takashi">
+            <persName>Takashi</persName>
+            <persName>
+                <surname></surname>
+                <forename>Takashi</forename>
+            </persName>
+        </person>
+        <person xml:id="sarge1">
+            <persName>Army Sargeant 1</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="kai">
+            <persName>Kaisuke</persName>
+            <persName>
+                <surname></surname>
+                <forename>Kai</forename>
+            </persName>
+        </person>
+        <person xml:id="officer1">
+            <persName>Police Officer 1</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="officer2">
+            <persName>Police Officer 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>Police Officer 2</forename>
+            </persName>
+        </person>
+        <person xml:id="revoguy2">
+            <persName>Crazed Revolutionist</persName>
+            <persName>
+                <surname></surname>
+                <forename>Crazed Revolutionist</forename>
+            </persName>
+        </person>
+        <person xml:id="bystand5">
+            <persName>Bystander 5</persName>
+            <persName>
+                <surname></surname>
+                <forename>Bystander 5</forename>
+            </persName>
+        </person>
+        <person xml:id="prisoner1">
+            <persName>Prisoner 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Prisoner 1</forename>
+            </persName>
+        </person>
+        <person xml:id="prisoner2">
+            <persName>Prisoner 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>Prisoner 2</forename>
+            </persName>
+        </person>
+        <person xml:id="soldier3">
+            <persName>Soldier 3</persName>
+            <persName>
+                <surname></surname>
+                <forename>Soldier 3</forename>
+            </persName>
+        </person>
+        <person xml:id="senator">
+            <persName>Corrupt Senator</persName>
+            <persName>
+                <surname></surname>
+                <forename>Corrupt Senator</forename>
+            </persName>
+        </person>
+        <person xml:id="secretary">
+            <persName>Senator's Secretary</persName>
+            <persName>
+                <surname></surname>
+                <forename>Senator's Secretary</forename>
+            </persName>
+        </person>
+        <person xml:id="doctor">
+            <persName>Doctor Onishi</persName>
+            <persName>
+                <surname>Onishi</surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="principal">
+            <persName>School Principal</persName>
+            <persName>
+                <surname></surname>
+                <forename>School Principal</forename>
+            </persName>
+        </person>
+        <person xml:id="coach">
+            <persName>School Coach</persName>
+            <persName>
+                <surname></surname>
+                <forename>School Coach</forename>
+            </persName>
+        </person>
+        <person xml:id="allcapsules">
+            <persName>All 6 members at once</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="girl1">
+            <persName>Redhead</persName>
+            <persName>
+                <surname></surname>
+                <forename>Redhead</forename>
+            </persName>
+        </person>
+        <person xml:id="girl2">
+            <persName>Lighter Brunette</persName>
+            <persName>
+                <surname></surname>
+                <forename>Lighter Brunette</forename>
+            </persName>
+        </person>
+        <person xml:id="girl3">
+            <persName>Darker Brunette</persName>
+            <persName>
+                <surname></surname>
+                <forename>Darker Brunette</forename>
+            </persName>
+        </person>
+        <person xml:id="mitsuru">
+            <persName>Mitsuru Kuwata</persName>
+            <persName>
+                <surname>Kuwata</surname>
+                <forename>Mitsuru</forename>
+            </persName>
+        </person>
+        <person xml:id="kaori">
+            <persName>Kaori</persName>
+            <persName>
+                <surname></surname>
+                <forename>Kaori</forename>
+            </persName>
+        </person>
+        <person xml:id="eiichi">
+            <persName>Eiichi Watanabe</persName>
+            <persName>
+                <surname>Watanabe</surname>
+                <forename>Eiichi</forename>
+            </persName>
+        </person>
+        <person xml:id="nurse">
+            <persName>Hospital Nurse</persName>
+            <persName>
+                <surname></surname>
+                <forename>Hospital Nurse</forename>
+            </persName>
+        </person>
+        <person xml:id="clown3">
+            <persName>Clown 3</persName>
+            <persName>
+                <surname></surname>
+                <forename>Clown 3</forename>
+            </persName>
+        </person>
+        <person xml:id="kiyoko">
+            <persName>Kiyoko</persName>
+            <persName>
+                <surname></surname>
+                <forename>Kiyoko</forename>
+            </persName>
+        </person>
+        <person xml:id="docstaff">
+            <persName>Doctor's Staffmember</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="security">
+            <persName>Security Announcer</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="officer3">
+            <persName>Police Officer 3</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="officer4">
+            <persName>Police Officer 4</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="officer5">
+            <persName>Police Officer 5</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="researchtaff1">
+            <persName>Research Staffmember 1</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="researchtaff2">
+            <persName>Research Staffmember 2</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="researchtaff3">
+            <persName>Research Staffmember 3</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+            <person xml:id="spy1">
+                <persName>Anti-Government Spy 1</persName>
+                <persName>
+                    <surname></surname>
+                    <forename></forename>
+                </persName>
+        </person>
+        <person xml:id="spy2">
+            <persName>Anti-Government Spy 2</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+            <person xml:id="nezu">
+                <persName>Mr. Nezu</persName>
+                <persName>
+                    <surname>Nezu</surname>
+                    <forename></forename>
+                </persName>
+            </person>
+            <person xml:id="miyako">
+                <persName>Lady Miyako</persName>
+                <persName>
+                    <surname>Miyako</surname>
+                    <forename></forename>
+                </persName>
+            </person>
+            <person xml:id="protestpolice">
+                <persName>Anti-protest Policeman</persName>
+                <persName>
+                    <surname></surname>
+                    <forename>Anti-protest Policeman</forename>
+                </persName>
+            </person>
+            <person xml:id="council1">
+                <persName>Councilman 1</persName>
+                <persName>
+                    <surname></surname>
+                    <forename>Councilman 1</forename>
+                </persName>
+            </person>
+        <person xml:id="council2">
+            <persName>Councilman 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>Councilman 2</forename>
+            </persName>
+        </person>
+        <person xml:id="headcouncil">
+            <persName>Head of Council</persName>
+            <persName>
+                <surname></surname>
+                <forename>Head of Council</forename>
+            </persName>
+        </person>
+        <person xml:id="council3">
+            <persName>Councilman 3</persName>
+            <persName>
+                <surname></surname>
+                <forename>Councilman 3</forename>
+            </persName>
+        </person>
+        <person xml:id="council4">
+            <persName>Councilman 4</persName>
+            <persName>
+                <surname></surname>
+                <forename>Councilman 4</forename>
+            </persName>
+        </person>
+        <person xml:id="council5">
+            <persName>Councilman 5</persName>
+            <persName>
+                <surname></surname>
+                <forename>Councilman 5</forename>
+            </persName>
+        </person>
+        <person xml:id="council6">
+            <persName>Councilman 6</persName>
+            <persName>
+                <surname></surname>
+                <forename>Councilman 6</forename>
+            </persName>
+        </person>
+        <person xml:id="council7">
+            <persName>Councilman 7</persName>
+            <persName>
+                <surname></surname>
+                <forename>Councilman 7</forename>
+            </persName>
+        </person>
+        <person xml:id="council8">
+            <persName>Councilman 8</persName>
+            <persName>
+                <surname></surname>
+                <forename>Councilman 8</forename>
+            </persName>
+        </person>
+        <person xml:id="labsecurity1">
+            <persName>Lab Security Guard 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Lab Security Guard 1</forename>
+            </persName>
+        </person>
+        <person xml:id="labassistant">
+            <persName>Lab Assistant</persName>
+            <persName>
+                <surname></surname>
+                <forename>Lab Assistant</forename>
+            </persName>
+        </person>
+        <person xml:id="labsecurity2">
+            <persName>Lab Security Guard 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>Lab Security Guard 2</forename>
+            </persName>
+        </person>
+        <person xml:id="sewerpilot1">
+            <persName>Sewer Vehicle Pilot 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Sewer Vehicle Pilot 1</forename>
+            </persName>
+        </person>
+        <person xml:id="radiorelay">
+            <persName>Radio Relayer</persName>
+            <persName>
+                <surname></surname>
+                <forename>Radio Relayer</forename>
+            </persName>
+        </person>
+        <person xml:id="radio1">
+            <persName>Man on Vehicle's Radio</persName>
+            <persName>
+                <surname></surname>
+                <forename>Man on Vehicle's Radio</forename>
+            </persName>
+        </person>
+        <person xml:id="labswat">
+            <persName>Lab Swat Team Leader</persName>
+            <persName>
+                <surname></surname>
+                <forename>Lab Swat Team Leader</forename>
+            </persName>
+        </person>
+        <person xml:id="buildannounce">
+            <persName>Robotic Building Alarm Announcment</persName>
+            <persName>
+                <surname></surname>
+                <forename>Robotic Building Alarm Announcment</forename>
+            </persName>
+        </person>
+        <person xml:id="labsoldier1">
+            <persName>Lab Soldier 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Lab Soldier 1</forename>
+            </persName>
+        </person>
+        <person xml:id="labsoldiers">
+            <persName>Group of Lab Soldiers</persName>
+            <persName>
+                <surname></surname>
+                <forename>Group of Lab Soldiers</forename>
+            </persName>
+        </person>
+        <person xml:id="woundedsoldier">
+            <persName>Wounded Soldier</persName>
+            <persName>
+                <surname></surname>
+                <forename>Wounded Soldier</forename>
+            </persName>
+        </person>
+        <person xml:id="armysarge">
+            <persName>Colonel's Seargent</persName>
+            <persName>
+                <surname></surname>
+                <forename>Colonel's Seargent</forename>
+            </persName>
+        </person>
+        <person xml:id="soldier4">
+            <persName>Soldier 4</persName>
+            <persName>
+                <surname></surname>
+                <forename>Soldier 4</forename>
+            </persName>
+        </person>
+        <person xml:id="arrestofficer">
+            <persName>Arresting Officer</persName>
+            <persName>
+                <surname></surname>
+                <forename>Arresting Officer</forename>
+            </persName>
+        </person>
+        <person xml:id="helisolder">
+            <persName>Helicopter Soldier</persName>
+            <persName>
+                <surname></surname>
+                <forename>Helicopter Soldier</forename>
+            </persName>
+        </person>
+        <person xml:id="tankcommand1">
+            <persName>Tank Commander 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Tank Commander 1</forename>
+            </persName>
+        </person>
+        <person xml:id="searchcommand">
+            <persName>Search Commander</persName>
+            <persName>
+                <surname></surname>
+                <forename>Search Commander</forename>
+            </persName>
+        </person>
+        <person xml:id="nezuassist">
+            <persName>Mr. Nezu's Assistant</persName>
+            <persName>
+                <surname></surname>
+                <forename>Mr. Nezu's Assistant</forename>
+            </persName>
+        </person>
+        <person xml:id="nezusoldier">
+            <persName>Mr. Nezu's Guard</persName>
+            <persName>
+                <surname></surname>
+                <forename>Mr. Nezu's Guard</forename>
+            </persName>
+        </person>
+        <person xml:id="tankcommand1">
+            <persName>Tank Commander1 </persName>
+            <persName>
+                <surname></surname>
+                <forename>Tank Commander 1</forename>
+            </persName>
+        </person>
+        <person xml:id="akirafan1">
+            <persName>Akira Fanatic 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Akira Fanatic 1</forename>
+            </persName>
+        </person>
+        <person xml:id="akirafan2">
+            <persName>Akira Fanatic 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>Akira Fanatic 2</forename>
+            </persName>
+        </person>
+        <person xml:id="akirafan3">
+            <persName>Akira Fanatic 3</persName>
+            <persName>
+                <surname></surname>
+                <forename>Akira Fanatic 3</forename>
+            </persName>
+        </person>
+        <person xml:id="akiragun">
+            <persName>Tank Gunner</persName>
+            <persName>
+                <surname></surname>
+                <forename>Tank Gunner</forename>
+            </persName>
+        </person>
+        <person xml:id="akirafan4">
+            <persName>Akira Fanatic 4</persName>
+            <persName>
+                <surname></surname>
+                <forename>Akira Fanatic 4</forename>
+            </persName>
+        </person>
+        <person xml:id="naysay">
+            <persName>Nay Sayer</persName>
+            <persName>
+                <surname></surname>
+                <forename>Nay Sayer</forename>
+            </persName>
+        </person>
+        <person xml:id="newscast">
+            <persName>Male Newscaster</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="#viewer">
+            <persName>TV Viewer</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="#viewers">
+            <persName>TV Viewers</persName>
+            <persName>
+                <surname></surname>
+                <forename></forename>
+            </persName>
+        </person>
+        <person xml:id="akirafan5">
+            <persName>Akira Fanatic 5</persName>
+            <persName>
+                <surname></surname>
+                <forename>Akira Fanatic 5</forename>
+            </persName>
+        </person>
+        <person xml:id="tankcommand2">
+            <persName>Tank Commander2 </persName>
+            <persName>
+                <surname></surname>
+                <forename>Tank Commander 2</forename>
+            </persName>
+        </person>
+        <person xml:id="lasercommand">
+            <persName>Laser Gun Squad Leader </persName>
+            <persName>
+                <surname></surname>
+                <forename>Laser Gun Squad Leader</forename>
+            </persName>
+        </person>
+        <person xml:id="mobileradio">
+            <persName>Command Center Radioman</persName>
+            <persName>
+                <surname></surname>
+                <forename>Command Center Radioman</forename>
+            </persName>
+        </person>
+        <person xml:id="olympicguard1">
+            <persName>Olympic Post Guard 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Olympic Post Guard 1</forename>
+            </persName>
+        </person>
+        <person xml:id="olympicguard2">
+            <persName>Olympic Post Guard 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>Olympic Post Guard 2</forename>
+            </persName>
+        </person>
+        <person xml:id="olympicannouncer">
+            <persName>Olympic Intercom Announcer</persName>
+            <persName>
+                <surname></surname>
+                <forename>Olympic Intercom Announcer</forename>
+            </persName>
+        </person>
+        <person xml:id="onlooker">
+            <persName>Onlooker on Bridge</persName>
+            <persName>
+                <surname></surname>
+                <forename>Onlooker on Bridge</forename>
+            </persName>
+        </person>
+        <person xml:id="solcontrol1">
+            <persName>Sol Controller 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Sol Controller 1</forename>
+            </persName>
+        </person>
+        <person xml:id="solcontrol2">
+            <persName>Sol Controller 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>Sol Controller 2</forename>
+            </persName>
+        </person>
+        <person xml:id="schoolgirl1">
+            <persName>School Girl 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>School Girl 1</forename>
+            </persName>
+        </person>
+        <person xml:id="schoolgirl2">
+            <persName>School Girl 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>School Girl 2</forename>
+            </persName>
+        </person>
+    </listPerson>
+</idSheet>
+

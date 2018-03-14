@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idSheet>
+    <listPerson type="characters">
+        <person xml:id="News Lady">
+            <persName>News Lady</persName>
+            <persName>
+                <surname></surname>
+                <middlename></middlename>
+                <forename>News Lady</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id="Bartender">Bartender</persName>
+            <persName>
+                <surname></surname>
+                <forename>Bartender</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id="Bar Customer">Bar Customer</persName>
+            <persName>
+                <surname></surname>
+                <forename>Bar Customer</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id="Kaneda">Kaneda</persName>
+            <persName>
+                <surname>Shotaro</surname>
+                <forename>Kaneda</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Yamagata">Yamagata</persName>
+            <persName>
+                <surname></surname>
+                <forename>Yamagata</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Tetsuo">Tetsuo Shima</persName>
+            <persName>
+                <surname>Shima</surname>
+                <forename>Tetsuo</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Lady Restaurant Guest">Female Restaurant Guest</persName>
+            <persName>
+                <surname></surname>
+                <forename>Female Guest</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Male Restaurant Guest">Male Restaurant Guest</persName>
+            <persName>
+                <surname></surname>
+                <forename>Male Guest</forename>
+            </persName>
+        </person>
+    <person>
+        <persName xml:id = "Watanabe">Watanabe</persName>
+        <persName>
+            <surname></surname>
+            <forename>Watanabe</forename>
+        </persName>
+    </person>
+        <person>
+            <persName xml:id = "Joker">Joker</persName>
+            <persName>
+                <surname></surname>
+                <forename>Joker</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Highway Policeman">Highway Policeman</persName>
+            <persName>
+                <surname></surname>
+                <forename>Highway Policeman</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Motorist #1">Motorist 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Motorist 1</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Motorist #2">Motorist 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>Motorist 2</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Motorist #3">Motorist 3</persName>
+            <persName>
+                <surname></surname>
+                <forename>Motorist 4</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Motorist 4">Motorist 4</persName>
+            <persName>
+                <surname></surname>
+                <forename>Motorist 4</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Soldier 1">Soldier 1</persName>
+            <persName>
+                <surname></surname>
+                <forename>Soldier 1</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Soldier 2">Soldier 2</persName>
+            <persName>
+                <surname></surname>
+                <forename>Soldier 2</forename>
+            </persName>
+        </person>
+        <person>
+            <persName xml:id = "Kei">Kei</persName>
+            <persName>
+                <surname></surname>
+                <forename>Kei</forename>
+            </persName>
+        </person>
+    </listPerson>
+    <person>
+        <persName xml:id = "Bystander 1">Bystander 1</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 1</forename>
+        </persName>
+    </person>
+    <person>
+        <persName xml:id = "Bystander 2">Bystander 2</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 2</forename>
+        </persName>
+    </person>
+    <person>
+        <persName xml:id = "Bystander 3">Bystander 3</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 3</forename>
+        </persName>
+    </person>
+    <person>
+        <persName xml:id = "Bystander 1">Bystander 1</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 1</forename>
+        </persName>
+    </person>
+    <person>
+        <persName xml:id = "Bystander 1">Bystander 1</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 1</forename>
+        </persName>
+    </person>
+    <person>
+        <persName xml:id = "Bystander 1">Bystander 1</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 1</forename>
+        </persName>
+    </person>
+    <person>
+        <persName xml:id = "Bystander 1">Bystander 1</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 1</forename>
+        </persName>
+    </person>
+    <person>
+        <persName xml:id = "Bystander 1">Bystander 1</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 1</forename>
+        </persName>
+    </person>
+    <person>
+        <persName xml:id = "Bystander 1">Bystander 1</persName>
+        <persName>
+            <surname></surname>
+            <forename>Bystander 1</forename>
+        </persName>
+    </person>
+    </listPerson>
+</idSheet>
+
