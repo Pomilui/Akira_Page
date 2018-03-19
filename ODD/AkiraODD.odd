@@ -60,7 +60,7 @@
             </elementSpec>
 <elementSpec ident="spGrp" module="drama" mode="change">
  <attList>
-    <attDef ident="who" mode="replace" usage="req">
+    <attDef ident="who" mode="replace" usage="opt">
        
        <datatype>
           <rng:text/>
@@ -101,6 +101,17 @@
                         <rng:text/>
                      </datatype>
                      <valList type="closed">
+                        <valItem ident="#council6 #council5"/>
+                        <valItem ident="#nezuguard"/>
+                        <valItem ident="#tankgun"/>
+                        <valItem ident="#nurseguard2"/>
+                        <valItem ident="#nurseguard1"/>
+                        <valItem ident="#clown4"/>
+                        <valItem ident="#takashi #kiyoko"/>
+                        <valItem ident="#kei #kiyoko"/>
+                        <valItem ident="#kaneda #kei"/>
+                        <valItem ident="#officer"/>
+                        <!--2018-03-19 ebb: I added the above entries to match the encoding in your script file. Are these correct? -->
                         <valItem ident="#ryu"/>
                         <valItem ident="#nlady"/>
                         <valItem ident="#bartend"/>
