@@ -36,6 +36,7 @@
             <moduleRef key="textstructure"/>
             <moduleRef key="drama"/>
             <moduleRef key="corpus"/>
+            <moduleRef key="linking"/>
             <!--ebb: For now, we're including all the elements in the above TEI modules complete. We can decide to exclude some later if we want to. -->
             <elementSpec ident="milestone" module="core" mode="change">
                <attList>
@@ -81,6 +82,148 @@
  </attList>  
    
 </elementSpec>
+            <elementSpec ident="persName" module="namesdates" mode="change">
+               <attList>
+               <attDef ident="ref" mode="replace" usage="rec">
+                  <datatype>
+                     <rng:text/>
+                  </datatype>
+                  <valList type="closed">
+               <valItem ident="#council6 #council5"/>
+               <valItem ident="#nezuguard"/>
+               <valItem ident="#tankgun"/>
+               <valItem ident="#nurseguard2"/>
+               <valItem ident="#nurseguard1"/>
+               <valItem ident="#clown4"/>
+               <valItem ident="#takashi #kiyoko"/>
+               <valItem ident="#kei #kiyoko"/>
+               <valItem ident="#kaneda #kei"/>
+               <valItem ident="#officer"/>
+               <valItem ident="#ryu"/>
+               <valItem ident="#nlady"/>
+               <valItem ident="#bartend"/>
+               <valItem ident="#barcust"/>
+               <valItem ident="#kaneda"/>
+               <valItem ident="#yamagata"/>
+               <valItem ident="#tetsuo"/>
+               <valItem ident="#restgirl"/>
+               <valItem ident="#restguy"/>
+               <valItem ident="#takeyama"/>
+               <valItem ident="#joker"/>
+               <valItem ident="#hwpolice"/>
+               <valItem ident="#moto1"/>
+               <valItem ident="#moto2"/>
+               <valItem ident="#moto3"/>
+               <valItem ident="#moto4"/>
+               <valItem ident="#soldier1"/>
+               <valItem ident="#soldier2"/>
+               <valItem ident="#kei"/>
+               <valItem ident="#bystand1"/>
+               <valItem ident="#bystand2"/>
+               <valItem ident="#bystand3"/>
+               <valItem ident="#bystand4"/>
+               <valItem ident="#soldier2"/>
+               <valItem ident="#soldier3"/>
+               <valItem ident="#captain1"/>
+               <valItem ident="#revoguy1"/>
+               <valItem ident="#colonel"/>
+               <valItem ident="#clown1"/>
+               <valItem ident="#clown2"/>
+               <valItem ident="#masaru"/>
+               <valItem ident="#capsule1"/>
+               <valItem ident="#takashi"/>
+               <valItem ident="#sarge1"/>
+               <valItem ident="#kai"/>
+               <valItem ident="#officer1"/>
+               <valItem ident="#officer2"/>
+               <valItem ident="#revoguy2"/>
+               <valItem ident="#bystand5"/>
+               <valItem ident="#prisoner1"/>
+               <valItem ident="#prisoner2"/>
+               <valItem ident="#soldier3"/>
+               <valItem ident="#senator"/>
+               <valItem ident="#secretary"/>
+               <valItem ident="#doctor"/>
+               <valItem ident="#principal"/>
+               <valItem ident="#coach"/>
+               <valItem ident="#allcapsules"/>
+               <valItem ident="#girl1"/>
+               <valItem ident="#girl2"/>
+               <valItem ident="#girl3"/>
+               <valItem ident="#mitsuru"/>
+               <valItem ident="#kaori"/>
+               <valItem ident="#eiichi"/>
+               <valItem ident="#nurse"/>
+               <valItem ident="#clown3"/>
+               <valItem ident="#kiyoko"/>
+               <valItem ident="#docstaff"/>
+               <valItem ident="#security"/>
+               <valItem ident="#officer3"/>
+               <valItem ident="#officer4"/>
+               <valItem ident="#officer5"/>
+               <valItem ident="#researchstaff1"/>
+               <valItem ident="#researchstaff2"/>
+               <valItem ident="#researchstaff3"/>
+               <valItem ident="#spy1"/>
+               <valItem ident="#spy2"/>
+               <valItem ident="#nezu"/>
+               <valItem ident="#miyako"/>
+               <valItem ident="#protestpolice"/>
+               <valItem ident="#council1"/>
+               <valItem ident="#council2"/>
+               <valItem ident="#headcouncil"/>
+               <valItem ident="#council3"/>
+               <valItem ident="#council4"/>
+               <valItem ident="#council5"/>
+               <valItem ident="#council6"/>
+               <valItem ident="#council7"/>
+               <valItem ident="#council8"/>
+               <valItem ident="#labsecurity1"/>
+               <valItem ident="#labassistant"/>
+               <valItem ident="#labsecurity2"/>
+               <valItem ident="#sewerpilot1"/>
+               <valItem ident="#radiorelay"/>
+               <valItem ident="#radio1"/>
+               <valItem ident="#labswat"/>
+               <valItem ident="#buildannounce"/>
+               <valItem ident="#labsoldier1"/>
+               <valItem ident="#labsoldiers"/>
+               <valItem ident="#woundedsoldier"/>
+               <valItem ident="#armysarge"/>
+               <valItem ident="#soldier4"/>
+               <valItem ident="#arrestofficer"/>
+               <valItem ident="#helisoldier"/>
+               <valItem ident="#tankcommand1"/>
+               <valItem ident="#searchcommand"/>
+               <valItem ident="#nezuassist"/>
+               <valItem ident="#nezusoldier"/>
+               <valItem ident="#tankcommand1"/>
+               <valItem ident="#akirafan1"/>
+               <valItem ident="#akirafan2"/>
+               <valItem ident="#akirafan3"/>
+               <valItem ident="#akiragun"/>
+               <valItem ident="#akirafan4"/>
+               <valItem ident="#naysay"/>
+               <valItem ident="#newscast"/>
+               <valItem ident="#viewer"/>
+               <valItem ident="#viewers"/>
+               <valItem ident="#akirafan5"/>
+               <valItem ident="#tankcommand2"/>
+               <valItem ident="#tankcommand3"/>
+               <valItem ident="#lasercommand"/>
+               <valItem ident="#mobileradio"/>
+               <valItem ident="#olympicguard1"/>
+               <valItem ident="#olympicguard2"/>
+               <valItem ident="#olympicannouncer"/>
+               <valItem ident="#onlooker"/>
+               <valItem ident="#solcontrol1"/>
+               <valItem ident="#solcontrol2"/>
+               <valItem ident="#schoolgirl1"/>
+               <valItem ident="#schoolgirl2"/>
+                  </valList>
+               </attDef>
+               </attList>
+            </elementSpec>
 
             <elementSpec ident="sp" module="core" mode="change">
          

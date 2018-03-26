@@ -30,6 +30,7 @@
                      <surname/>
                      <forename>Ryu</forename>
                   </persName>
+                  <trait type="faction"><label>Revolution</label></trait>
                </person>
                <person xml:id="nlady">
                   <persName><roleName>News Lady</roleName></persName>
@@ -55,6 +56,7 @@
                      <surname>Shotaro</surname>
                      <forename>Kaneda</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="yamagata">
                   <persName>
@@ -181,6 +183,7 @@
                      <surname/>
                      <forename>Bystander 4</forename>
                   </persName>
+                  
                </person>
                <person xml:id="soldier3">
                   <persName>
@@ -5699,6 +5702,7 @@ of this pile of rumble.</p>
 <p>Die!</p>
 </sp>
 <milestone type="powers"/>
+         <note><ab><persName ref="#kaneda">Kaneda</persName> fires a shot from his laser gun</ab>, and Tetsuo, already having an aura of psychic powers around him, deflects the laser shot point blank in front of his face.  However, the force of the laser energy knocks him backwards.  Kaneda has the upper hand at this point.</note>
 <sp who="#kaneda" n="1077" from="01:34:18.209" to="01:34:19.376" >
 <p>Tetsuo!</p>
 </sp>
