@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/C:/Users/npp16/Documents/GitHub/Akira_Page/ODD/out/AkiraODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="file:/C:/Users/npp16/Documents/GitHub/Akira_Page/ODD/out/AkiraODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../ODD/out/AkiraODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../ODD/out/AkiraODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -5311,7 +5311,7 @@ waiting now, would I?</p>
 <p>Hey, Kaneda, hold on!</p>
 </sp>
 
-<sp who="" n="992" from="01:24:03.971" to="01:24:07.306" >
+<sp who="#tankcommand3" n="992" from="01:24:03.971" to="01:24:07.306" >
 <p>Half of them seem to be antigovernment
 demonstrators. The rest are......</p>
 </sp>
