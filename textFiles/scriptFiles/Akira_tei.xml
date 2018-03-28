@@ -49,6 +49,7 @@
                      <surname/>
                      <forename>Bar Customer</forename>
                   </persName>
+                  <trait type="faction"><label>Clowns</label></trait>
                </person>
                <person xml:id="kaneda">
                   <persName>Kaneda</persName>
@@ -64,6 +65,7 @@
                      <surname/>
                      <forename>Yamagata</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="tetsuo">
                   <persName>
@@ -71,6 +73,7 @@
                      <surname>Shima</surname>
                      <forename>Tetsuo</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="restgirl">
                   <persName>
@@ -92,6 +95,7 @@
                      <surname>Takeyama</surname>
                      <forename>Yuji</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="joker">
                   <persName>
@@ -99,6 +103,7 @@
                      <surname/>
                      <forename>Joker</forename>
                   </persName>
+                  <trait type="faction"><label>Clowns</label></trait>
                </person>
                <person xml:id="hwpolice">
                   <persName>
@@ -106,6 +111,7 @@
                      <surname/>
                      <forename>Highway Policeman</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="moto1">
                   <persName>
@@ -141,6 +147,7 @@
                      <surname/>
                      <forename>Soldier 1</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="soldier2">
                   <persName>
@@ -148,6 +155,7 @@
                      <surname/>
                      <forename>Soldier 2</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="kei">
                   <persName>
@@ -155,6 +163,7 @@
                      <surname/>
                      <forename>Kei</forename>
                   </persName>
+                  <trait type="faction"><label>Revolution</label></trait>
                </person>
                <person xml:id="bystand1">
                   <persName>Bystander 1</persName>
@@ -191,6 +200,7 @@
                      <surname/>
                      <forename>Soldier 2</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="soldier4">
                   <persName>
@@ -198,6 +208,7 @@
                      <surname/>
                      <forename>Soldier 3</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="captain1">
                   <persName>Riot Police Captian</persName>
@@ -205,6 +216,7 @@
                      <surname/>
                      <forename>Riot Police Captian</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="revoguy1">
                   <persName>Revolutionist</persName>
@@ -212,6 +224,7 @@
                      <surname/>
                      <forename>Revolutionist</forename>
                   </persName>
+                  <trait type="faction"><label>Revolution</label></trait>
                </person>
                <person xml:id="colonel">
                   <persName>Colonel Shikishima</persName>
@@ -226,6 +239,7 @@
                      <surname/>
                      <forename>Clown 1</forename>
                   </persName>
+                  <trait type="faction"><label>Clowns</label></trait>
                </person>
                <person xml:id="clown2">
                   <persName>Clown 2</persName>
@@ -233,6 +247,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Clowns</label></trait>
                </person>
                <person xml:id="masaru">
                   <persName>Masaru</persName>
@@ -240,6 +255,7 @@
                      <surname/>
                      <forename>Masaru</forename>
                   </persName>
+                  <trait type="faction"><label>Espers</label></trait>
                </person>
                <person xml:id="capsule1">
                   <persName>Capsule Gang Member 1</persName>
@@ -254,6 +270,7 @@
                      <surname/>
                      <forename>Takashi</forename>
                   </persName>
+                  <trait type="faction"><label>Espers</label></trait>
                </person>
                <person xml:id="sarge1">
                   <persName>Army Sargeant 1</persName>
@@ -261,6 +278,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="kai">
                   <persName>Kaisuke</persName>
@@ -268,6 +286,7 @@
                      <surname/>
                      <forename>Kai</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="officer1">
                   <persName>Police Officer 1</persName>
@@ -275,6 +294,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="officer2">
                   <persName>Police Officer 2</persName>
@@ -282,6 +302,7 @@
                      <surname/>
                      <forename>Police Officer 2</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="revoguy2">
                   <persName>Crazed Revolutionist</persName>
@@ -289,6 +310,7 @@
                      <surname/>
                      <forename>Crazed Revolutionist</forename>
                   </persName>
+                  <trait type="faction"><label>Revolution</label></trait>
                </person>
                <person xml:id="bystand5">
                   <persName>Bystander 5</persName>
@@ -317,6 +339,7 @@
                      <surname/>
                      <forename>Soldier 3</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="senator">
                   <persName>Corrupt Senator</persName>
@@ -324,6 +347,7 @@
                      <surname/>
                      <forename>Corrupt Senator</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="secretary">
                   <persName>Senator's Secretary</persName>
@@ -338,6 +362,7 @@
                      <surname>Onishi</surname>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="principal">
                   <persName>School Principal</persName>
@@ -366,6 +391,7 @@
                      <surname/>
                      <forename>Redhead</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="girl2">
                   <persName>Lighter Brunette</persName>
@@ -373,6 +399,7 @@
                      <surname/>
                      <forename>Lighter Brunette</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="girl3">
                   <persName>Darker Brunette</persName>
@@ -380,6 +407,7 @@
                      <surname/>
                      <forename>Darker Brunette</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="mitsuru">
                   <persName>Mitsuru Kuwata</persName>
@@ -387,6 +415,7 @@
                      <surname>Kuwata</surname>
                      <forename>Mitsuru</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="kaori">
                   <persName>Kaori</persName>
@@ -394,6 +423,7 @@
                      <surname/>
                      <forename>Kaori</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="eiichi">
                   <persName>Eiichi Watanabe</persName>
@@ -401,6 +431,7 @@
                      <surname>Watanabe</surname>
                      <forename>Eiichi</forename>
                   </persName>
+                  <trait type="faction"><label>Capsules</label></trait>
                </person>
                <person xml:id="nurse">
                   <persName>Hospital Nurse</persName>
@@ -415,6 +446,7 @@
                      <surname/>
                      <forename>Clown 3</forename>
                   </persName>
+                  <trait type="faction"><label>Clowns</label></trait>
                </person>
                <person xml:id="kiyoko">
                   <persName>Kiyoko</persName>
@@ -422,6 +454,7 @@
                      <surname/>
                      <forename>Kiyoko</forename>
                   </persName>
+                  <trait type="faction"><label>Espers</label></trait>
                </person>
                <person xml:id="docstaff">
                   <persName>Doctor's Staffmember</persName>
@@ -429,6 +462,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="security">
                   <persName>Security Announcer</persName>
@@ -436,6 +470,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="officer3">
                   <persName>Police Officer 3</persName>
@@ -443,6 +478,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="officer4">
                   <persName>Police Officer 4</persName>
@@ -450,6 +486,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="officer5">
                   <persName>Police Officer 5</persName>
@@ -457,6 +494,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="researchstaff1">
                   <persName>Research Staffmember 1</persName>
@@ -464,6 +502,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="researchstaff2">
                   <persName>Research Staffmember 2</persName>
@@ -471,6 +510,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Scientist</label></trait>
                </person>
                <person xml:id="researchstaff3">
                   <persName>Research Staffmember 3</persName>
@@ -478,6 +518,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Scientist</label></trait>
                </person>
                <person xml:id="spy1">
                   <persName>Anti-Government Spy 1</persName>
@@ -485,6 +526,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Revolution</label></trait>
                </person>
                <person xml:id="spy2">
                   <persName>Anti-Government Spy 2</persName>
@@ -492,6 +534,7 @@
                      <surname/>
                      <forename/>
                   </persName>
+                  <trait type="faction"><label>Revolution</label></trait>
                </person>
                <person xml:id="nezu">
                   <persName>Mr. Nezu</persName>
@@ -513,6 +556,7 @@
                      <surname/>
                      <forename>Anti-protest Policeman</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="council1">
                   <persName>Councilman 1</persName>
@@ -597,6 +641,7 @@
                      <surname/>
                      <forename>Lab Security Guard 2</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="sewerpilot1">
                   <persName>Sewer Vehicle Pilot 1</persName>
@@ -604,6 +649,7 @@
                      <surname/>
                      <forename>Sewer Vehicle Pilot 1</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="radiorelay">
                   <persName>Radio Relayer</persName>
@@ -611,6 +657,7 @@
                      <surname/>
                      <forename>Radio Relayer</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="radio1">
                   <persName>Man on Vehicle's Radio</persName>
@@ -618,6 +665,7 @@
                      <surname/>
                      <forename>Man on Vehicle's Radio</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="labswat">
                   <persName>Lab Swat Team Leader</persName>
@@ -625,6 +673,7 @@
                      <surname/>
                      <forename>Lab Swat Team Leader</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="buildannounce">
                   <persName>Robotic Building Alarm Announcment</persName>
@@ -639,6 +688,7 @@
                      <surname/>
                      <forename>Lab Soldier 1</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="labsoldiers">
                   <persName>Group of Lab Soldiers</persName>
@@ -646,6 +696,7 @@
                      <surname/>
                      <forename>Group of Lab Soldiers</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="woundedsoldier">
                   <persName>Wounded Soldier</persName>
@@ -660,6 +711,7 @@
                      <surname/>
                      <forename>Colonel's Seargent</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="soldier6">
                   <persName>Soldier 6</persName>
@@ -667,6 +719,7 @@
                      <surname/>
                      <forename>Soldier 6</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="arrestofficer">
                   <persName>Arresting Officer</persName>
@@ -681,6 +734,7 @@
                      <surname/>
                      <forename>Helicopter Soldier</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="tankcommand1">
                   <persName>Tank Commander 1</persName>
@@ -688,6 +742,7 @@
                      <surname/>
                      <forename>Tank Commander 1</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="searchcommand">
                   <persName>Search Commander</persName>
@@ -695,6 +750,7 @@
                      <surname/>
                      <forename>Search Commander</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="nezuassist">
                   <persName>Mr. Nezu's Assistant</persName>
@@ -716,6 +772,7 @@
                      <surname/>
                      <forename>Tank Commander 2</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="akirafan1">
                   <persName>Akira Fanatic 1</persName>
@@ -744,6 +801,7 @@
                      <surname/>
                      <forename>Tank Gunner</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="akirafan4">
                   <persName>Akira Fanatic 4</persName>
@@ -793,6 +851,7 @@
                      <surname/>
                      <forename>Tank Commander 3</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="lasercommand">
                   <persName>Laser Gun Squad Leader </persName>
@@ -800,6 +859,7 @@
                      <surname/>
                      <forename>Laser Gun Squad Leader</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="mobileradio">
                   <persName>Command Center Radioman</persName>
@@ -807,6 +867,7 @@
                      <surname/>
                      <forename>Command Center Radioman</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="olympicguard1">
                   <persName>Olympic Post Guard 1</persName>
@@ -814,6 +875,7 @@
                      <surname/>
                      <forename>Olympic Post Guard 1</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="olympicguard2">
                   <persName>Olympic Post Guard 2</persName>
@@ -821,6 +883,7 @@
                      <surname/>
                      <forename>Olympic Post Guard 2</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="olympicannouncer">
                   <persName>Olympic Intercom Announcer</persName>
@@ -828,6 +891,7 @@
                      <surname/>
                      <forename>Olympic Intercom Announcer</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="onlooker">
                   <persName>Onlooker on Bridge</persName>
@@ -842,6 +906,7 @@
                      <surname/>
                      <forename>Sol Controller 1</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="solcontrol2">
                   <persName>Sol Controller 2</persName>
@@ -849,6 +914,7 @@
                      <surname/>
                      <forename>Sol Controller 2</forename>
                   </persName>
+                  <trait type="faction"><label>Government</label></trait>
                </person>
                <person xml:id="schoolgirl1">
                   <persName>School Girl 1</persName>
