@@ -39,4 +39,24 @@
         </tr>  </xsl:if>  
         
     </xsl:template>
+    
+   
+    <xsl:template match="spGrp">
+        <div class="spGrp">
+            <xsl:apply-templates/>
+            
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="sp">
+        
+        <div class="sp">     <strong><xsl:apply-templates select="@who"/> </strong>  
+            <p><xsl:apply-templates/></p>
+        </div>
+        
+    </xsl:template>
+    
+    
+    
+    
 </xsl:stylesheet>
