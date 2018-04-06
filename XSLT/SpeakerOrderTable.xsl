@@ -13,7 +13,7 @@
                 <title>Akira</title>
                
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="stylesheet" type="text/css" href="akira.css"/>  
+                <link rel="stylesheet" type="text/css" href="styling.css"/>  
             </head>
             <body>
                 <h1><xsl:apply-templates select="descendant::teiHeader//title"/></h1>
