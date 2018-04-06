@@ -47,7 +47,7 @@
                      <datatype>
                         <rng:text/>
                      </datatype>
-                     <valList type="semi">
+                     <valList type="closed">
                         <valItem ident="#tetsuo"/>
                         <valItem ident="#akira"/>
                         <valItem ident="#kiyoko"/>
