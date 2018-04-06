@@ -42,6 +42,22 @@
                <attList>
                   <attDef ident="unit" mode="change" usage="opt"/>
                   <!--ebb: The @unit attribute is usually required on the milestone element, but since you're using it to signal topical points in the document, I'm just making the unit optional. We can define more attributes and values to use here. -->
+                  <attDef ident="who" mode="replace" usage="opt">
+                     
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="semi">
+                        <valItem ident="#tetsuo"/>
+                        <valItem ident="#akira"/>
+                        <valItem ident="#kiyoko"/>
+                        <valItem ident="#masaru"/>
+                        <valItem ident="#takashi"/>
+                        <valItem ident="#kei"/>
+                        <valItem ident="#tetsuo #kaneda"/>
+                        <valItem ident="#kiyoko #tetsuo #masaru #takashi"/>
+                     </valList>
+                  </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="spGrp" module="drama" mode="change">
