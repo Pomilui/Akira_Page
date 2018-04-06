@@ -51,6 +51,10 @@
         </div>
     </xsl:template>
     
+    <xsl:template match="/"
+    
+    
+    
     <xsl:template match="sp">
 
                <div class="sp" id="{string-join(for $i in tokenize(@who, ' ') return substring-after($i, '#'), '_')}_{@n}">     
