@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-04-07T23:08:30Z. .
+Schema generated from ODD source 2018-04-07T23:33:24Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -11692,7 +11692,7 @@ You must supply at least two values for @target on <name/>
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                context="tei:milestone[@type='super'] | tei:spGrp[@subtype='super']">
+                context=" tei:spGrp[@subtype='super']">
                      <sch:assert test="@who = ('#akira','#tetsuo', '#kiyoko', '#masaru', '#takashi', '#kei')">The XML markup should reflect that only Akira, Tetsuo, Kiyoko, Masaru, Takashi, or Kei exercise superpowers.</sch:assert>
                   </sch:rule>
    </pattern> 
@@ -11701,7 +11701,7 @@ You must supply at least two values for @target on <name/>
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                context="tei:milestone[@type='human'] | tei:spGrp[@subtype='human']">
+                context="tei:spGrp[@subtype='human']">
                      <sch:assert test="@who = ('#kaneda','#yamagata', '#doctor', '#colonel', '#colonel #doctor', '#tetsuo #kaneda', '#kiyoko #tetsuo #masaru #takashi')">The XML markup should reflect that Kaneda, Yamagata, the doctor, the colonel exercise human powers. These combinations of characters together: Tetsuo and Kaneda, as well as Kiyoko, Tetsuo, Masaru, and Takashi also exercise distinctly human powers.</sch:assert>
                   </sch:rule>
    </pattern>

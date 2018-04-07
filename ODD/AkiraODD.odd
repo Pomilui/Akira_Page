@@ -136,10 +136,10 @@
             <!--ebb: The following Schematron rules fine-tune the encoding of human vs. superpowers on spGrp or milestone using XPath tests. -->
             <constraintSpec ident="human-or-super-powers" scheme="schematron">
                <constraint>
-                  <sch:rule context="tei:milestone[@type='super'] | tei:spGrp[@subtype='super']">
+                  <sch:rule context=" tei:spGrp[@subtype='super']">
                      <sch:assert test="@who = ('#akira','#tetsuo', '#kiyoko', '#masaru', '#takashi', '#kei')">The XML markup should reflect that only Akira, Tetsuo, Kiyoko, Masaru, Takashi, or Kei exercise superpowers.</sch:assert>
                   </sch:rule>
-                  <sch:rule context="tei:milestone[@type='human'] | tei:spGrp[@subtype='human']">
+                  <sch:rule context="tei:spGrp[@subtype='human']">
                      <sch:assert test="@who = ('#kaneda','#yamagata', '#doctor', '#colonel', '#colonel #doctor', '#tetsuo #kaneda', '#kiyoko #tetsuo #masaru #takashi')">The XML markup should reflect that Kaneda, Yamagata, the doctor, the colonel exercise human powers. These combinations of characters together: Tetsuo and Kaneda, as well as Kiyoko, Tetsuo, Masaru, and Takashi also exercise distinctly human powers.</sch:assert>
                   </sch:rule>
                </constraint>
