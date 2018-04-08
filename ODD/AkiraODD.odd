@@ -38,12 +38,34 @@
             <moduleRef key="corpus"/>
             <moduleRef key="linking"/>
             <!--ebb: For now, we're including all the elements in the above TEI modules complete. We can decide to exclude some later if we want to. -->
-            <elementSpec ident="milestone" module="core" mode="change">
+            
+             <elementSpec ident="milestone" module="core" mode="change">
+                <!--2018-04-07 ebb: Below is a Schematron rule to make sure @who is on every milestone associated with type="powers". This rule fires a report when it sees this condition occur, so it is written as a "report".-->
+                <constraintSpec ident="powers-and-notes" scheme="schematron">
+                   <constraint>
+                        <sch:report test="@type='powers' and not(@who)">A who attribute must be present when using type="powers" on the milestone element, in order to identify the source of the power being exerted. 
+                      </sch:report>
+                         <sch:assert test="following-sibling::*[1] = //tei:note">Every milestone element must be followed by a note element to describe what action is occuring at this point in the script. 
+                      </sch:assert> 
+                        
+                   </constraint>
+                </constraintSpec>
+                <!--2018-04-07 ebb: The next Schematron rule asserts that every milestone element MUST be followed by a note element. The assert statement indicates this is the expected condition. This rule should fire only if that condition is violated (written as an "assert"). -->
+
                <attList>
                   <attDef ident="unit" mode="change" usage="opt"/>
-                  <!--ebb: The @unit attribute is usually required on the milestone element, but since you're using it to signal topical points in the document, I'm just making the unit optional. We can define more attributes and values to use here. -->
-                  <attDef ident="who" mode="replace" usage="opt">
+                  <!--ebb: The @unit attribute is usually required on the milestone element, but since you're using it to signal topical points in the document, we're making the unit optional. -->
+                  <attDef ident="type" mode="replace" usage="req">
                      
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="powers"/>
+                        <valItem ident="plot"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="who" mode="replace" usage="rec">
                      <datatype>
                         <rng:text/>
                      </datatype>
@@ -61,6 +83,7 @@
                </attList>
             </elementSpec>
             <elementSpec ident="spGrp" module="drama" mode="change">
+<!--2018-04-06 ebb npp: With the current rules, we now mark control scenes where only human powers are exerted, distinct from control scenes in which super powers are exerted. -->
                <attList>
                   <attDef ident="type" mode="replace" usage="req">
                      <datatype>
@@ -73,31 +96,55 @@
                         -->
                      </valList>
                   </attDef>
+                  <attDef ident="subtype" mode="replace" usage="req">
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="human"/>
+                        <valItem ident="super"/>
+                        <!--ebb: do you want to add other types of speech groups? No need, but this marks off the controlScenes so they are now coded as <spGrp type="controlScene">...</div>        
+                     Would you like other attributes on this spGrp?  
+                        -->
+                     </valList>
+                  </attDef>
+                  <attDef ident="who" mode="replace" usage="req">
+                     <!--2018-03-14 ebb: This is a list who appear in control scenes to dominate the scene and other characters, and sometimes VIE for control. Where they vie for control, we set a plural attribute value separated by white spaces.   -->   
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <!--characters who exercise superpowers -->
+                        <valItem ident="#akira"/>
+                        <valItem ident="#tetsuo"/>
+                        <valItem ident="#kiyoko"/>
+                        <valItem ident="#masaru"/>
+                        <valItem ident="#takashi"/>
+                        <valItem ident="#kei"/>
+                        <!--characters who don't exercise super powers -->
+                        <valItem ident="#kaneda"/>
+                        <valItem ident="#yamagata"/>
+                        <valItem ident="#doctor"/>
+                        <valItem ident="#colonel"/>
+                        <valItem ident="#colonel #doctor"/>
+                        <valItem ident="#tetsuo #kaneda"/>
+                        <valItem ident="#kiyoko #tetsuo #masaru #takashi"/>
+                     </valList>
+                  </attDef>
                </attList>
             </elementSpec>
-<elementSpec ident="spGrp" module="drama" mode="change">
- <attList>
-    <attDef ident="who" mode="replace" usage="opt">
-       
-       <datatype>
-          <rng:text/>
-       </datatype>
-       <valList type="semi">
-          <valItem ident="#kaneda"/>
-          <valItem ident="#yamagata"/>
-          <valItem ident="#doctor"/>
-          <valItem ident="#tetsuo"/>
-          <valItem ident="#colonel"/>
-          <valItem ident="#akira"/>
-          <valItem ident="#colonel #doctor"/>
-          <valItem ident="#tetsuo #kaneda"/>
-          <valItem ident="#kiyoko #tetsuo #masaru #takashi"/>
-       </valList>
-    </attDef>
-    <!--2018-03-14 ebb: This is a list who appear in control scenes to dominate the scene and other characters, and sometimes VIE for control. Where they vie for control, we set a plural attribute value separated by white spaces. I can generate a schematron rule to test to break these on white spaces so you can set these as plural on the control scenes, separated by white spaces. BUT there's a limited number of combinations for people VYING for control.  -->
- </attList>  
-   
-</elementSpec>
+            <!--ebb: The following Schematron rules fine-tune the encoding of human vs. superpowers on spGrp or milestone using XPath tests. -->
+            <constraintSpec ident="human-or-super-powers" scheme="schematron">
+               <constraint>
+                  <sch:rule context=" tei:spGrp[@subtype='super']">
+                     <sch:assert test="@who = ('#akira','#tetsuo', '#kiyoko', '#masaru', '#takashi', '#kei')">The XML markup should reflect that only Akira, Tetsuo, Kiyoko, Masaru, Takashi, or Kei exercise superpowers.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:spGrp[@subtype='human']">
+                     <sch:assert test="@who = ('#kaneda','#yamagata', '#doctor', '#colonel', '#colonel #doctor', '#tetsuo #kaneda', '#kiyoko #tetsuo #masaru #takashi')">The XML markup should reflect that Kaneda, Yamagata, the doctor, the colonel exercise human powers. These combinations of characters together: Tetsuo and Kaneda, as well as Kiyoko, Tetsuo, Masaru, and Takashi also exercise distinctly human powers.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+
             <elementSpec ident="persName" module="namesdates" mode="change">
                <attList>
                <attDef ident="ref" mode="replace" usage="rec">
@@ -394,8 +441,9 @@
                         <valItem ident="#schoolgirl2"/>
                      </valList>
                   </attDef>
-                  <attDef ident="ana" mode="replace" usage="opt">
-                     <!--ebb: Do you want to use @ana on sp when you want to indicate a character being controlled by another character? The same value list applies, unless you want to LIMIT this to ONLY the characters who are controlled by others. -->
+                <!--2018-04-07 ebb: Commenting out this rule since we now have a different system for marking control scenes and uses of power using <spGrp> and <milestone/> elements 
+                   <attDef ident="ana" mode="replace" usage="opt">
+                     <!-\-ebb: Do you want to use @ana on sp when you want to indicate a character being controlled by another character? The same value list applies, unless you want to LIMIT this to ONLY the characters who are controlled by others. -\->
                      <datatype>
                         <rng:text/>
                      </datatype>
@@ -408,9 +456,10 @@
                         <valItem ident="#kiyoko"/>
                        
                      </valList>
-                  </attDef>
+                  </attDef>-->
                </attList>
             </elementSpec>
+         
 
          </schemaSpec>
       </body>
