@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-04-08T16:42:52Z. .
+Schema generated from ODD source 2018-04-09T22:42:02Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -11691,22 +11691,19 @@ You must supply at least two values for @target on <name/>
          <ref name="teiTEI"/>
       </choice>
    </start>
-   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="akiraODD-human-or-super-powers-constraint-rule-10">
-      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                context=" tei:spGrp[@subtype='super']">
-                     <sch:assert test="@who = ('#akira','#tetsuo', '#kiyoko', '#masaru', '#takashi', '#kei')">The XML markup should reflect that only Akira, Tetsuo, Kiyoko, Masaru, Takashi, or Kei exercise superpowers.</sch:assert>
+                xmlns:rng="http://relaxng.org/ns/structure/1.0">  
+                   <sch:let name="superPowers"
+               value="('#akira','#tetsuo', '#kiyoko', '#masaru', '#takashi', '#kei')"/> 
+                 
+                   <sch:rule context=" tei:spGrp[@subtype='super']">
+                      <sch:let name="superWhos" value="for $i in tokenize(@who, ' ') return $i"/> 
+                      <sch:assert test="every $superWho in $superWhos satisfies $superWho = $superPowers">The XML markup should reflect that only Akira, Tetsuo, Kiyoko, Masaru, Takashi, or Kei (or any combination of these characters) exercise superpowers.</sch:assert>                  
+                    
                   </sch:rule>
-   </pattern> 
-   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="akiraODD-human-or-super-powers-constraint-rule-11">
-      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                context="tei:spGrp[@subtype='human']">
-                     <sch:assert test="@who = ('#kaneda','#yamagata', '#doctor', '#colonel', '#colonel #doctor', '#tetsuo #kaneda', '#kiyoko #tetsuo #masaru #takashi', '#nezu #ryu')">The XML markup should reflect that Kaneda, Yamagata, the doctor, the colonel exercise human powers. These combinations of characters together: Tetsuo and Kaneda, as well as Kiyoko, Tetsuo, Masaru, and Takashi also exercise distinctly human powers.</sch:assert>
+                  <sch:rule context="tei:spGrp[@subtype='human']">
+                     <sch:assert test="@who = ('#kaneda','#yamagata', '#doctor', '#colonel', '#colonel #doctor', '#tetsuo #kaneda', '#kiyoko #tetsuo #masaru #takashi', '#nezu', '#ryu', '#army')">The XML markup should reflect that Kaneda, Yamagata, the doctor, the colonel exercise human powers. These combinations of characters together: Tetsuo and Kaneda, as well as Kiyoko, Tetsuo, Masaru, and Takashi also exercise distinctly human powers.</sch:assert>
                   </sch:rule>
-   </pattern>
+   </sch:pattern>
 </grammar>

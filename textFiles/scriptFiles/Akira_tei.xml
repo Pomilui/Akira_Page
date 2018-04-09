@@ -1237,7 +1237,7 @@ They're running away!</p>
 <p>Get out of here... Now!</p>
 </sp>
          
-         <milestone type="powers" who="#takashi"/><note>The army soldiers fire multiple rounds into the revolutionist, and, upon seeing the excessive blood, which Takashi and the other Espers fear, yells at the top of his lungs.  His telekinetic powers are activated accidentally which causes the glass windows in the area to shatter and causes a rooftop structure to crash to the street.</note>
+         <milestone type="powers" who="#takashi"/><note>The army soldiers fire multiple rounds into the revolutionists, and, upon seeing the excessive blood, which Takashi and the other Espers fear, Takashi yells at the top of his lungs.  His telekinetic powers are activated accidentally, which causes the glass windows in the area to shatter and causes a rooftop structure to crash to the street.</note>
          
 
 <sp who="#ryu" n="69" from="00:10:17.549" to="00:10:19.508" >
@@ -1289,7 +1289,7 @@ The old city......</p>
 <p>How do you like that?</p>
 </sp>
          
-         <milestone type="powers" who="#takashi"/><note>Tetsuo looks ahead to see Takashi walking across the highway, and it unable to veer his motorcycle to avoid hitting him.  Takashi unwillingly stands his ground and uses his powers to explode the bike several feet infront of him while protecting himself from the flames with an aura.  Tetsuo yells and is hurled through the air and onto the pavement behind Takashi which injures him badly.</note>
+         <milestone type="powers" who="#takashi"/><note>Tetsuo looks ahead to see Takashi walking across the highway, and is unable to veer his motorcycle to avoid hitting him. Takashi stands his ground and uses his powers to explode the bike several feet in front of him while shielding his face and protecting himself from the flames with an aura. Tetsuo yells and is hurled through the air and onto the pavement behind Takashi, which injures him badly.</note>
 
 <sp who="#yamagata" n="80" from="00:12:56.624" to="00:12:58.750" >
 <p>Well? Who is it?</p>
@@ -2329,7 +2329,7 @@ I'm gonna kill you asshole!</p>
 <p>Tetsuo!</p>
 </sp>
 
-         <milestone type="plot"/><note>Seeking revenge for being rediculed and for Kaori's injury from the Clowns, Tetsuo repeatedly pummels the capture Clown member to the ground.  Kaneda stops him from kicking the downed clown further.</note>
+         <milestone type="plot"/><note>Seeking revenge for being ridiculed and for Kaori's injury from the Clowns, Tetsuo repeatedly pummels the captured Clown member to the ground.  Kaneda stops him from any further kicking of the downed clown.</note>
          
 <sp who="#kaneda" n="309" from="00:29:24.027" to="00:29:26.487" >
 <p>You're gonna kill him, Tetsuo!
@@ -2392,7 +2392,7 @@ but I won't always be on the receiving end.</p>
 <p>Leave me alone!</p>
 </sp>
 <spGrp type="controlScene" subtype="super" who="#tetsuo">
-<milestone type="powers" who="#kiyoko"/><note>Tetsuo's emotions cause the powers to be activated in him, which causes very painful headaches and hallucinations.  Kiyoko speaks the name of Akira in Tetsuo's mind adding to his confusion.</note>
+<milestone type="powers" who="#kiyoko"/><note>Tetsuo's emotions cause the powers to be activated in him, which causes very painful headaches and hallucinations. Kiyoko speaks the name of Akira in Tetsuo's mind adding to his confusion.</note>
 <sp who="#kiyoko" n="323" from="00:30:14.828" to="00:30:16.579" >
 <p>"Akira!"</p>
 </sp>
@@ -2405,7 +2405,7 @@ but I won't always be on the receiving end.</p>
 <p>Something wrong?</p>
 </sp>
 
-<milestone type="powers" who="#kiyoko"/><note>Kiyoko yells the name Akira, which has been swarming in Tetsuo's mind since he was imbued with the power.  More disturbing hallucinations flash in Tetsuo's mind.</note>
+<milestone type="powers" who="#kiyoko"/><note>Kiyoko yells the name, <q>Akira</q>, a name which has been swarming in Tetsuo's mind since he was imbued with paranormal power. More disturbing hallucinations flash in Tetsuo's mind.</note>
 
 <sp who="#kiyoko" n="326" from="00:30:26.506" to="00:30:27.214" >
 <p>"Akira!"</p>
@@ -3040,7 +3040,7 @@ data on the new subject.</p>
 <sp who="#ryu" n="468" from="00:42:56.923" to="00:42:58.048" >
 <p>- Yes.</p>
 </sp>
-<milestone type="plot"/><note>A sympathetic tone is set for Tetsuo as the anti-government spy ring contemplates the dire situtation of an Orwellian government seeking to unlock super powers in all people by experimenting on its citezens without consent.</note>
+<milestone type="plot"/><note>A sympathetic tone is set for Tetsuo, as the anti-government spy ring contemplates the dire situtation of an Orwellian government that seeks to unlock super powers in all people by experimenting on its citizens without consent.</note>
 <sp who="#ryu" n="469" from="00:42:58.174" to="00:43:03.053" >
 <p>Last week, on the same night we tried to abduct
 the experimental subject called number 26...</p>
@@ -3851,7 +3851,7 @@ or just a hallucination?</p>
 Where the hell am I going?</p>
 </sp>
 
-<milestone type="powers" who="#kiyoko"/><note>Kiyoko, sensing the fight between the raiding spy group in the tunnels below the building and the heroic emotions of Kaneda and Kei, takes over Kei's body to guide them through the labrynth of tunnels to an elevator that can bring them to the floor level of "The Baby Room" where the Espers reside.  Kiyoko jumps at the opportunity to unwillingly recruit Kaneda and especially Kei into the conflict of dealing with Tetsuo's ever-increasing lack of control.</note>
+<milestone type="powers" who="#kiyoko"/><note>Kiyoko, sensing the fight between the raiding spy group in the tunnels below the building and the heroic emotions of Kaneda and Kei, takes over Kei's body to guide them through the labyrinth of tunnels to an elevator that can bring them to the floor level of "The Baby Room" where the Espers reside. Kiyoko jumps at the opportunity to recruit an unwitting Kaneda and Kei to contend with an increasingly dangerous and out-of-control Tetsuo.</note>
 
 <sp who="#kei" n="650" from="00:59:43.095" to="00:59:46.389" >
 <p>Proceed straight.
@@ -3913,7 +3913,7 @@ and now I'm gonna kill you!</p>
 <sp who="#takashi" n="663" from="01:00:26.847" to="01:00:27.847" >
 <p>O...Okay.</p>
 </sp>
-<milestone type="powers" who="#takashi"/><note>In a battle of telekentic wills, Takashi begins to hone his powers around where Tetsuo is standing, and bits of cement are starting to be torn upwards.</note>
+<milestone type="powers" who="#takashi"/><note>In a battle of telekenetic wills, Takashi begins to hone his powers around where Tetsuo is standing, and bits of cement are starting to be torn upwards.</note>
 
 <sp who="#tetsuo" n="664" from="01:00:33.061" to="01:00:35.020" >
 <p>You little twerps!</p>
@@ -3921,7 +3921,7 @@ and now I'm gonna kill you!</p>
 
 <milestone type="powers" who="#tetsuo"/><note>Tetsuo responds by pushing back with his powers.</note>
    
-   <milestone type="powers" who="#masaru"/><note>As Takashi begins to lose ground, Marasu helps Takashi by joining in, which causes Tetsuo to reel back.  The cement floor between all 3 characters depresses and cracks.</note>
+   <milestone type="powers" who="#masaru"/><note>As Takashi begins to lose ground, Masaru helps Takashi by joining in, which causes Tetsuo to reel back.  The cement floor between all three characters depresses and cracks.</note>
 
 <sp who="#colonel" n="665" from="01:00:51.079" to="01:00:53.038" >
 <p>All of you, that is enough!</p>
@@ -3954,7 +3954,7 @@ What...did you people do?</p>
 <sp who="#tetsuo" n="671" from="01:01:20.442" to="01:01:21.817" >
 <p>You messed with my head!</p>
    
-   <milestone type="powers" who="#tetsuo"/><note>Tetsuo lashes out a telekentic wave that rips up the cement bareley avoiding the colonel and the doctor.</note>
+   <milestone type="powers" who="#tetsuo"/><note>Tetsuo lashes out a telekenetic wave that rips up the cement barely avoiding the colonel and the doctor.</note>
 </sp>
 
 <sp who="#colonel" n="672" from="01:01:30.202" to="01:01:32.119" >
@@ -3965,7 +3965,7 @@ What...did you people do?</p>
 <p>But he can't control it, sir.</p>
 </sp>
 
-<milestone type="powers" who="#kiyoko"/><note>Kiyoko begins to pound on the glass dome of her bed while speaking directly into the Tetsuo's mind that someone has a greater power than he and all of the Espers:  Akira.</note>
+<milestone type="powers" who="#kiyoko"/><note>Kiyoko begins to pound on the glass dome of her bed while speaking directly into the Tetsuo's mind that someone has a greater power than he and all of the Espers: Akira.</note>
 
 <sp who="#tetsuo" n="674" from="01:01:39.544" to="01:01:40.628" >
 <p>What'd you say?</p>
@@ -4036,7 +4036,7 @@ we have to stop you.</p>
 <p>Where is he?</p>
 </sp>
    
-   <milestone type="powers" who="#tetsuo"/><note>Tetsuo catches the Espers offguard in a rage by shooting a violent burst of energy that destroy's Kiyoko's bed and knocks them backward</note>
+   <milestone type="powers" who="#tetsuo"/><note>Tetsuo catches the Espers offguard in a rage by shooting a violent burst of energy that destroys Kiyoko's bed and knocks them backward.</note>
 
 <sp who="#colonel" n="689" from="01:02:23.296" to="01:02:24.338" >
 <p>- No! Don't!</p>
@@ -4087,8 +4087,8 @@ the friggin' baby room?</p>
 <p>Coming through!</p>
 </sp>
          
-         <milestone type="powers" who="#tetsuo"/><note>Tetsuo brings down the columns in the room andcauses a serious of explosions as the Espers are chased over a wall.</note>
-         <milestone type="powers" who="#masaru"/><note>Masaru is holding Kiyoko in his chair as they hover away from Tetsuo's explosions, but cement from the exploding wall catches the backend of his chair, and they are both flung forward on the cement floor.</note>
+         <milestone type="powers" who="#tetsuo"/><note>Tetsuo brings down the columns in the room and causes a series of explosions as the Espers are chased over a wall.</note>
+         <milestone type="powers" who="#masaru"/><note>Masaru is holding Kiyoko in his chair as they hover away from Tetsuo's explosions, but cement from the exploding wall catches the back end of his chair, and they are both flung forward on the cement floor.</note>
 
 <sp who="#masaru" n="700" from="01:03:26.234" to="01:03:27.776" >
 <p>Kiyoko.</p>
@@ -4135,7 +4135,7 @@ out of here, those...</p>
 <p>You keep away!</p>
 </sp>
 
-<milestone type="powers" who="#tetsuo"/><note>As the security team advances on Tetsuo, he swipes a blast of energy at the ground and throws the entire squad several yards killing them or knocking them all unconscious.  Kaneda is also caught up in the blast and is thrown backward.</note>
+<milestone type="powers" who="#tetsuo"/><note>As the security team advances on Tetsuo, he swipes a blast of energy at the ground and throws the entire squad several yards killing them or knocking them all unconscious. Kaneda is also caught up in the blast and is thrown backward.</note>
 
 <sp who="#kei" n="710" from="01:04:18.286" to="01:04:19.453" >
 <p>Kaneda!</p>
@@ -4185,7 +4185,7 @@ you gonna do now?</p>
 What are you gonna do now?</p>
 </sp>
    
-   <milestone type="powers" who="#tetsuo"/><note>As Tetsuo's anger rises, his powers increases.  Tetsuo rips up the cement infront of Kaneda, and the chucks smash the glass of the high domed cieling.  Tetsuo laughs and revels in powers as the whole room is torn apart around him.</note>
+   <milestone type="powers" who="#tetsuo"/><note>As Tetsuo's anger rises, his powers increase. Tetsuo rips up the cement in front of Kaneda, and the chunks of cement smash the glass of the high domed ceiling. Tetsuo laughs and revels in his powers as the whole room is torn apart around him.</note>
    
 </spGrp>
 <sp who="#kiyoko" n="720" from="01:05:04.666" to="01:05:06.375" >
@@ -4199,7 +4199,7 @@ What are you gonna do now?</p>
 Don't hurt anyone else!</p>
 </sp>
 
-<milestone type="powers" who="#kiyoko"/><note>Kiyoko hovers a few yards away from Tetsuo admist the fly cement.</note>
+<milestone type="powers" who="#kiyoko"/><note>Kiyoko hovers a few yards away from Tetsuo admist the flying cement.</note>
 
 <sp who="#tetsuo" n="722" from="01:05:11.423" to="01:05:13.382" >
 <p>Where's this Akira?</p>
@@ -4225,9 +4225,9 @@ thinking is wrong! Akira is......</p>
 <p>Oh! Wait!</p>
 </sp>
          
-<milestone type="powers" who="#tetsuo"/><note>Tetsuo begins to glow red as he brings his powers to a peak, which shoots him and the debris completely out of the building into the outside air.  His powers cause him to float instead of falling, and he begins to control his newfound power of flight to laughingly fly away. </note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo begins to glow red as he brings his powers to a peak, which shoots him and the debris completely out of the building into the outside air. His powers cause him to float instead of falling, and he laughs as he begins to control his newfound power of flight, soaring into the air. </note>
          
-         <milestone type="powers" who="#takashi"/><note>At the last second before Kiyoko is crushed by the debris and thrown outside, Takashi grabs Kiyoko and flys her away from harm.</note>
+         <milestone type="powers" who="#takashi"/><note>At the last second before Kiyoko is crushed by the debris and thrown outside, Takashi grabs Kiyoko and flies her away from harm.</note>
          
 <sp who="#tetsuo" n="727" from="01:05:35.905" to="01:05:36.947" >
 <p>What the hell?</p>
@@ -4644,7 +4644,7 @@ me where Kaneda's bike is.</p>
 <p>You son of a bitch!</p>
 </sp>
 
-<milestone type="powers" who="#tetsuo"></milestone><note>As Yamagata climbs up the rubbled in the bar, Tetsuo uses his powers to fling down a large bar couch, which knocks Yamagata down to the floor. </note>
+<milestone type="powers" who="#tetsuo"></milestone><note>As Yamagata climbs up the rubble in the bar, Tetsuo uses his powers to fling down a large bar couch, which knocks Yamagata down to the floor. </note>
 
 <sp who="#kai" n="819" from="01:10:57.518" to="01:10:58.685" >
 <p>Yamagata!</p>
