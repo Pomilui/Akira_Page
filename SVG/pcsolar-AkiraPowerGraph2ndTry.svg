@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900">
+    <g transform="translate(200, 100)">
+        <line x1="200" y1="500" x2="810" y2="500" stroke="red" stroke-width="8"/>
+        <line x1="200" y1="504" x2="200" y2="50" stroke="red" stroke-width="8"/>
+        <g>
+            <rect x="525" y="449" width="50" height="370"/>
+            <text>#tetsuo</text>
+        </g>
+        <g>
+            <rect x="425" y="478" width="50" height="80"/>
+            <text>#kiyoko</text>
+        </g>
+        <g>
+            <rect x="225" y="479" width="50" height="70"/>
+            <text>#takashi</text>
+        </g>
+        <g>
+            <rect x="325" y="482" width="50" height="40"/>
+            <text>#masaru</text>
+        </g>
+        <g>
+            <rect x="625" y="483" width="50" height="30"/>
+            <text>#kei</text>
+        </g>
+        <g>
+            <rect x="725" y="485" width="50" height="10"/>
+            <text>#akira</text>
+        </g>
+    </g>
+</svg>
