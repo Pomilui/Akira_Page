@@ -1237,7 +1237,7 @@ They're running away!</p>
 <p>Get out of here... Now!</p>
 </sp>
          
-         <milestone type="powers" who="#takashi"/>
+         <milestone type="powers" who="#takashi"/><note>The army soldiers fire multiple rounds into the revolutionist, and, upon seeing the excessive blood, which Takashi and the other Espers fear, yells at the top of his lungs.  His telekinetic powers are activated accidentally which causes the glass windows in the area to shatter and causes a rooftop structure to crash to the street.</note>
          
 
 <sp who="#ryu" n="69" from="00:10:17.549" to="00:10:19.508" >
@@ -1248,13 +1248,13 @@ They're running away!</p>
 <p>We've gotta get out of here, Kei?</p>
 </sp>
 
-         <milestone type="powers" who="takashi"/>
+         <milestone type="powers" who="#takashi"/><note>Takashi, alone in the street after everyone flees in panic, uses his powers to vanish from the scene and relocate himself to the outskirts of the city.</note>
 
 <sp who="#kei" n="71" from="00:10:27.058" to="00:10:28.767" >
 <p>He's gone!</p>
 </sp>
 
-<milestone type="powers" who="masaru"/>
+<milestone type="powers" who="#masaru"/><note>Masaru, a fellow Esper, uses his powers to detect where Takashi teleported.</note>
 
 <sp who="#masaru" n="72">
 <p>He's to the West.</p>
@@ -1289,7 +1289,7 @@ The old city......</p>
 <p>How do you like that?</p>
 </sp>
          
-         <milestone type="powers" who="takashi"/>
+         <milestone type="powers" who="#takashi"/><note>Tetsuo looks ahead to see Takashi walking across the highway, and it unable to veer his motorcycle to avoid hitting him.  Takashi unwillingly stands his ground and uses his powers to explode the bike several feet infront of him while protecting himself from the flames with an aura.  Tetsuo yells and is hurled through the air and onto the pavement behind Takashi which injures him badly.</note>
 
 <sp who="#yamagata" n="80" from="00:12:56.624" to="00:12:58.750" >
 <p>Well? Who is it?</p>
@@ -1850,7 +1850,7 @@ Akira's growth-pattern process.</p>
 to the numbers, don't you?</p>
 </sp>
     
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="human" who="#colonel #doctor">
 <sp who="#doctor" n="202" from="00:22:42.293" to="00:22:45.170" >
 <p>It may be rough on the boy...</p>
 </sp>
@@ -1921,7 +1921,7 @@ the power of a god?</p>
      
 
 
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="human" who="#colonel #doctor">
 <sp who="#colonel" n="217" from="00:23:30.966" to="00:23:33.343" >
 <p>But we have no choice
 but to grasp that power...</p>
@@ -2142,7 +2142,8 @@ She gets on my nerves.</p>
 <sp who="#kaori" n="265" from="00:26:05.454" to="00:26:07.038" >
 <p>Tetsuo!</p>
 </sp>
-<milestone type="plot"/>
+<milestone type="plot"/><note>Tetsuo and Kaori sit down together against a fence in an isolated area to catch up.</note>
+         
 <sp who="#kaori" n="266" from="00:26:07.164" to="00:26:11.793" >
 <p>Everyone's been worried about you.
 They thought you were dead.</p>
@@ -2327,7 +2328,9 @@ I'm gonna kill you asshole!</p>
 <sp who="#kaneda" n="308" from="00:29:05.509" to="00:29:07.885" >
 <p>Tetsuo!</p>
 </sp>
-<milestone type="plot"/>
+
+         <milestone type="plot"/><note>Seeking revenge for being rediculed and for Kaori's injury from the Clowns, Tetsuo repeatedly pummels the capture Clown member to the ground.  Kaneda stops him from kicking the downed clown further.</note>
+         
 <sp who="#kaneda" n="309" from="00:29:24.027" to="00:29:26.487" >
 <p>You're gonna kill him, Tetsuo!
 You want that?</p>
@@ -2388,7 +2391,8 @@ but I won't always be on the receiving end.</p>
 <sp who="#tetsuo" n="322" from="00:30:10.991" to="00:30:11.949" >
 <p>Leave me alone!</p>
 </sp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="super" who="#tetsuo">
+<milestone type="powers" who="#kiyoko"/><note>Tetsuo's emotions cause the powers to be activated in him, which causes very painful headaches and hallucinations.  Kiyoko speaks the name of Akira in Tetsuo's mind adding to his confusion.</note>
 <sp who="#kiyoko" n="323" from="00:30:14.828" to="00:30:16.579" >
 <p>"Akira!"</p>
 </sp>
@@ -2400,6 +2404,8 @@ but I won't always be on the receiving end.</p>
 <sp who="#kaneda" n="325" from="00:30:24.171" to="00:30:25.588" >
 <p>Something wrong?</p>
 </sp>
+
+<milestone type="powers" who="#kiyoko"/><note>Kiyoko yells the name Akira, which has been swarming in Tetsuo's mind since he was imbued with the power.  More disturbing hallucinations flash in Tetsuo's mind.</note>
 
 <sp who="#kiyoko" n="326" from="00:30:26.506" to="00:30:27.214" >
 <p>"Akira!"</p>
@@ -2733,7 +2739,7 @@ the form of the next stage...</p>
 <p>that human evolution was taking, and perhaps
 we would all be able to control it some day.</p>
 </sp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="human" who="#colonel #doctor">
 <sp who="#colonel" n="400" from="00:38:56.432" to="00:38:59.810" >
 <p>Scientists are
 a bunch of romantics.</p>
@@ -2852,7 +2858,7 @@ or reactions recorded.</p>
 <sp who="#doctor" n="426" from="00:40:52.548" to="00:40:54.925" >
 <p>So then all systems are normal.</p>
 </sp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="human" who="#colonel">
 <sp who="#colonel" n="427" from="00:41:03.851" to="00:41:06.103" >
 <p>Look at what they abandoned
 in their panic.</p>
@@ -3034,7 +3040,7 @@ data on the new subject.</p>
 <sp who="#ryu" n="468" from="00:42:56.923" to="00:42:58.048" >
 <p>- Yes.</p>
 </sp>
-<milestone type="plot"/>
+<milestone type="plot"/><note>A sympathetic tone is set for Tetsuo as the anti-government spy ring contemplates the dire situtation of an Orwellian government seeking to unlock super powers in all people by experimenting on its citezens without consent.</note>
 <sp who="#ryu" n="469" from="00:42:58.174" to="00:43:03.053" >
 <p>Last week, on the same night we tried to abduct
 the experimental subject called number 26...</p>
@@ -3132,7 +3138,7 @@ taking the boy with you?</p>
 <p>He knows the subject and I think we can
 use him as a decoy if we find it necessary.</p>
 </sp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="human" who="#nezu"><note></note>
 <sp who="#nezu" n="491" from="00:44:03.823" to="00:44:07.284" >
 <p>Neo Tokyo is going
 to change soon.</p>
@@ -3839,11 +3845,13 @@ with me? Am I dreaming?</p>
 <p>These powers, are they real
 or just a hallucination?</p>
 </sp>
-<spGrp type="controlScene"><!--ebb: This is associated with a well-formedness error somewhere around here.  -->
+<spGrp type="controlScene" subtype="super" who="#kiyoko"><!--ebb: This is associated with a well-formedness error somewhere around here.  -->
 <sp who="#kaneda" n="649" from="00:59:40.842" to="00:59:42.885" >
 <p>Damn it!
 Where the hell am I going?</p>
 </sp>
+
+<milestone type="powers" who="#kiyoko"/><note>Kiyoko, sensing the fight between the raiding spy group in the tunnels below the building and the heroic emotions of Kaneda and Kei, takes over Kei's body to guide them through the labrynth of tunnels to an elevator that can bring them to the floor level of "The Baby Room" where the Espers reside.  Kiyoko jumps at the opportunity to unwillingly recruit Kaneda and especially Kei into the conflict of dealing with Tetsuo's ever-increasing lack of control.</note>
 
 <sp who="#kei" n="650" from="00:59:43.095" to="00:59:46.389" >
 <p>Proceed straight.
@@ -3863,7 +3871,7 @@ Proceed straight ahead.</p>
 to sublevel 8.</p>
 </sp>
 </spGrp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="super" who="#kiyoko #tetsuo #masaru #takashi">
 <sp who="#tetsuo" n="654" from="01:00:03.198" to="01:00:05.866" >
 <p>That's good.
 You're all together.</p>
@@ -3905,10 +3913,15 @@ and now I'm gonna kill you!</p>
 <sp who="#takashi" n="663" from="01:00:26.847" to="01:00:27.847" >
 <p>O...Okay.</p>
 </sp>
-<milestone type="powers" who="#tetsuo"/>
+<milestone type="powers" who="#takashi"/><note>In a battle of telekentic wills, Takashi begins to hone his powers around where Tetsuo is standing, and bits of cement are starting to be torn upwards.</note>
+
 <sp who="#tetsuo" n="664" from="01:00:33.061" to="01:00:35.020" >
 <p>You little twerps!</p>
 </sp>
+
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo responds by pushing back with his powers.</note>
+   
+   <milestone type="powers" who="#masaru"/><note>As Takashi begins to lose ground, Marasu helps Takashi by joining in, which causes Tetsuo to reel back.  The cement floor between all 3 characters depresses and cracks.</note>
 
 <sp who="#colonel" n="665" from="01:00:51.079" to="01:00:53.038" >
 <p>All of you, that is enough!</p>
@@ -3937,9 +3950,11 @@ irreparable damage. We can help.</p>
 <p>What the hell?
 What...did you people do?</p>
 </sp>
-<milestone type="powers" who="#tetsuo"/>
+
 <sp who="#tetsuo" n="671" from="01:01:20.442" to="01:01:21.817" >
 <p>You messed with my head!</p>
+   
+   <milestone type="powers" who="#tetsuo"/><note>Tetsuo lashes out a telekentic wave that rips up the cement bareley avoiding the colonel and the doctor.</note>
 </sp>
 
 <sp who="#colonel" n="672" from="01:01:30.202" to="01:01:32.119" >
@@ -3949,6 +3964,8 @@ What...did you people do?</p>
 <sp who="#doctor" n="673" from="01:01:32.245" to="01:01:34.163" >
 <p>But he can't control it, sir.</p>
 </sp>
+
+<milestone type="powers" who="#kiyoko"/><note>Kiyoko begins to pound on the glass dome of her bed while speaking directly into the Tetsuo's mind that someone has a greater power than he and all of the Espers:  Akira.</note>
 
 <sp who="#tetsuo" n="674" from="01:01:39.544" to="01:01:40.628" >
 <p>What'd you say?</p>
@@ -4018,6 +4035,8 @@ we have to stop you.</p>
 <sp who="#tetsuo" n="688" from="01:02:19.000" to="01:02:21.043" >
 <p>Where is he?</p>
 </sp>
+   
+   <milestone type="powers" who="#tetsuo"/><note>Tetsuo catches the Espers offguard in a rage by shooting a violent burst of energy that destroy's Kiyoko's bed and knocks them backward</note>
 
 <sp who="#colonel" n="689" from="01:02:23.296" to="01:02:24.338" >
 <p>- No! Don't!</p>
@@ -4025,6 +4044,8 @@ we have to stop you.</p>
 
 <sp who="#tetsuo" n="690" from="01:02:24.339" to="01:02:25.464" >
 <p>- Stay back!</p>
+   
+   <milestone type="powers" who="#tetsuo"/><note>Tetsuo angrily throws swipes a power blast at the Colonel's feet causing him to shield his eyes then turns back to deal with the Espers.</note>
 </sp>
 </spGrp>
 <sp who="#buildannounce" n="691" from="01:02:31.429" to="01:02:35.224" >
@@ -4065,11 +4086,16 @@ the friggin' baby room?</p>
 <sp who="#kaneda" n="699" from="01:03:22.981" to="01:03:24.857" >
 <p>Coming through!</p>
 </sp>
+         
+         <milestone type="powers" who="#tetsuo"/><note>Tetsuo brings down the columns in the room andcauses a serious of explosions as the Espers are chased over a wall.</note>
+         <milestone type="powers" who="#masaru"/><note>Masaru is holding Kiyoko in his chair as they hover away from Tetsuo's explosions, but cement from the exploding wall catches the backend of his chair, and they are both flung forward on the cement floor.</note>
 
 <sp who="#masaru" n="700" from="01:03:26.234" to="01:03:27.776" >
 <p>Kiyoko.</p>
 </sp>
 
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo defiantly stands on the rubble of the wall before sliding down and tearing up the cement around Masaru and Kiyoko.</note>
+         
 <sp who="#kaneda" n="701" from="01:03:48.256" to="01:03:49.548" >
 <p>That hurt.</p>
 </sp>
@@ -4109,6 +4135,8 @@ out of here, those...</p>
 <p>You keep away!</p>
 </sp>
 
+<milestone type="powers" who="#tetsuo"/><note>As the security team advances on Tetsuo, he swipes a blast of energy at the ground and throws the entire squad several yards killing them or knocking them all unconscious.  Kaneda is also caught up in the blast and is thrown backward.</note>
+
 <sp who="#kei" n="710" from="01:04:18.286" to="01:04:19.453" >
 <p>Kaneda!</p>
 </sp>
@@ -4117,7 +4145,7 @@ out of here, those...</p>
 <p>Oh, that's right.
 I forgot you were there.</p>
 </sp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="super" who="#tetsuo">
 <sp who="#tetsuo" n="712" from="01:04:26.461" to="01:04:28.420" >
 <p>There. Do you see, Kaneda?</p>
 </sp>
@@ -4151,20 +4179,27 @@ what you're hearing, do you?</p>
 <p>Makes you angry. So what are
 you gonna do now?</p>
 </sp>
-<milestone type="powers" who="tetsuo"/>  
+
 <sp who="#tetsuo" n="719">
 <p>Well, Kaneda?
 What are you gonna do now?</p>
 </sp>
+   
+   <milestone type="powers" who="#tetsuo"/><note>As Tetsuo's anger rises, his powers increases.  Tetsuo rips up the cement infront of Kaneda, and the chucks smash the glass of the high domed cieling.  Tetsuo laughs and revels in powers as the whole room is torn apart around him.</note>
+   
 </spGrp>
 <sp who="#kiyoko" n="720" from="01:05:04.666" to="01:05:06.375" >
 <p>That's enough!</p>
 </sp>
 
+
+
 <sp who="#kiyoko" n="721" from="01:05:07.001" to="01:05:09.878" >
 <p>Stop it!
 Don't hurt anyone else!</p>
 </sp>
+
+<milestone type="powers" who="#kiyoko"/><note>Kiyoko hovers a few yards away from Tetsuo admist the fly cement.</note>
 
 <sp who="#tetsuo" n="722" from="01:05:11.423" to="01:05:13.382" >
 <p>Where's this Akira?</p>
@@ -4173,6 +4208,8 @@ Don't hurt anyone else!</p>
 <sp who="#kiyoko" n="723" from="01:05:14.175" to="01:05:15.050" >
 <p>I won't tell.</p>
 </sp>
+
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo peers toward Kiyoko and reads her mind on the location of Akira.</note>
 
 <sp who="#tetsuo" n="724" from="01:05:16.344" to="01:05:19.054" >
 <p>Olympic stadium...
@@ -4187,7 +4224,11 @@ thinking is wrong! Akira is......</p>
 <sp who="#kiyoko" n="726" from="01:05:24.602" to="01:05:25.811" >
 <p>Oh! Wait!</p>
 </sp>
-<milestone type="powers" who="#tetsuo"/>
+         
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo begins to glow red as he brings his powers to a peak, which shoots him and the debris completely out of the building into the outside air.  His powers cause him to float instead of falling, and he begins to control his newfound power of flight to laughingly fly away. </note>
+         
+         <milestone type="powers" who="#takashi"/><note>At the last second before Kiyoko is crushed by the debris and thrown outside, Takashi grabs Kiyoko and flys her away from harm.</note>
+         
 <sp who="#tetsuo" n="727" from="01:05:35.905" to="01:05:36.947" >
 <p>What the hell?</p>
 </sp>
@@ -4303,7 +4344,7 @@ streets leading to the construction site.</p>
 <sp who="#kei" n="752" from="01:06:52.190" to="01:06:53.816" >
 <p>It was you.</p>
 </sp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="human" who="#colonel">
 <sp who="#armysarge" n="753" from="01:07:00.198" to="01:07:02.074" >
 <p>According
 to the security team...</p>
@@ -4323,7 +4364,7 @@ intruders disguised as workers...</p>
 before his powers mature.</p>
 </sp>
 </spGrp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="human" who="#colonel">
 <sp who="#colonel" n="757" from="01:07:12.210" to="01:07:13.961" >
 <p>Your objective is the boy,
 Tetsuo Shima.</p>
@@ -4603,6 +4644,8 @@ me where Kaneda's bike is.</p>
 <p>You son of a bitch!</p>
 </sp>
 
+<milestone type="powers" who="#tetsuo"></milestone><note>As Yamagata climbs up the rubbled in the bar, Tetsuo uses his powers to fling down a large bar couch, which knocks Yamagata down to the floor. </note>
+
 <sp who="#kai" n="819" from="01:10:57.518" to="01:10:58.685" >
 <p>Yamagata!</p>
 </sp>
@@ -4787,8 +4830,8 @@ they can find around them.</p>
 <p>Are you saying he has
 that kind of energy?</p>
 </sp>
-         <milestone type="powers" who="kiyoko"/>
-<spGrp type="controlScene">
+         <milestone type="powers" who="#kiyoko"/><note></note>
+<spGrp type="controlScene" subtype="super" who="#kiyoko">
 <sp who="#kei #kiyoko" n="859" from="01:13:11.986" to="01:13:13.695" >
 <p>Long ago...</p>
 </sp>
@@ -5034,15 +5077,17 @@ Yamagata his wheels.</p>
 <sp who="#kai" n="912" from="01:16:27.807" to="01:16:29.182" >
 <p>Kaneda!</p>
 </sp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="super" who="#takashi">
 <sp who="#kaneda" n="913" from="01:16:45.449" to="01:16:46.408" >
 <p>Kei!</p>
 </sp>
 
+<milestone type="powers" who="#takashi"/><note></note>
+
 <sp who="#kaneda" n="914" from="01:16:46.867" to="01:16:48.076" >
 <p>What's wrong?</p>
 </sp>
-
+<milestone type="powers" who="#kei"/>
 <sp who="#kaneda" n="915" from="01:16:52.373" to="01:16:54.874" >
 <p>That night. You were there.</p>
 </sp>
@@ -5063,6 +5108,8 @@ Yamagata his wheels.</p>
 <p>You're the one, right?
 You changed my friend, didn't you?</p>
 </sp>
+
+<milestone type="powers" who="#kiyoko"/><note></note>
 
 <sp who="#kiyoko" n="920" from="01:17:17.690" to="01:17:19.399" >
 <p>The thing about Akira's power is...</p>
@@ -5212,7 +5259,7 @@ you can't be seen here!</p>
 <sp who="#ryu" n="952" from="01:19:33.826" to="01:19:35.201" >
 <p>What?</p>
 </sp>
-<milestone type="action"/>
+<milestone type="plot"/><note></note>
 <sp who="#kei" n="953" from="01:19:38.372" to="01:19:39.706" >
 <p>Kei!</p>
 </sp>
@@ -5230,7 +5277,7 @@ is just up ahead.</p>
 <p>It intersects this road
 a hundred meters from here.</p>
 </sp>
-<milestone type="powers" who="tetsuo"/>
+<milestone type="powers" who="#tetsuo"/><note></note>
 <sp who="#tankcommand2" n="957" from="01:20:03.564" to="01:20:05.189" >
 <p>Battle stations!</p>
 </sp>
@@ -5269,7 +5316,7 @@ are complete.</p>
 <sp who="#tankcommand2" n="965" from="01:20:47.274" to="01:20:49.067" >
 <p>Damn it! Fire!</p>
 </sp>
-<milestone type="powers" who="tetsuo"/>
+<milestone type="powers" who="#tetsuo"/><note></note>
 <sp who="#akirafan2" n="966" from="01:21:02.081" to="01:21:04.749" >
 <p>Is it Akira?</p>
 </sp>
@@ -5301,8 +5348,8 @@ are complete.</p>
 <sp who="#tankcommand2" n="973" from="01:21:19.723" to="01:21:21.015" >
 <p>- What's wrong?</p>
 </sp>
-<milestone type="powers" who="tetsuo"/>
-<spGrp type="controlScene">
+<milestone type="powers" who="#tetsuo"/><note></note>
+<spGrp type="controlScene" subtype="human" who="#army">
 <sp who="#newscast" n="974" from="01:22:48.562" to="01:22:51.272" >
 <p>Coming to you live aboard news
 chopper 1 high over downtown.</p>
@@ -5450,7 +5497,7 @@ purified in the flames!</p>
 <sp who="#tetsuo" n="1004" from="01:24:42.009" to="01:24:42.508" >
 <p>- What?</p>
 </sp>
-
+<spGrp type="controlScene" subtype="human" who="#army">
 <sp who="#lasercommand" n="1005" from="01:24:42.509" to="01:24:43.718" >
 <p>- Fire!</p>
 </sp>
@@ -5463,7 +5510,9 @@ Then converge your beams.</p>
 <sp who="#lasercommand" n="1007" from="01:24:53.687" to="01:24:55.730" >
 <p>Aim, fire!</p>
 </sp>
-<milestone type="powers" who="#tetsuo"/>
+<milestone type="powers" who="#tetsuo"/><note></note>
+   
+   
 <sp who="#tetsuo" n="1008" from="01:25:01.862" to="01:25:03.738" >
 <p>Watch this!</p>
 </sp>
@@ -5496,7 +5545,7 @@ What is the subject's status?</p>
 <sp who="#colonel" n="1014" from="01:25:39.066" to="01:25:40.733" >
 <p>Line to the doctor.</p>
 </sp>
-
+</spGrp>
 <sp who="#doctor" n="1015" from="01:25:40.901" to="01:25:44.111" >
 <p>We have confirmation of his recent
 movements and are in pursuit.</p>
@@ -5522,7 +5571,10 @@ the Olympic construction site...</p>
 <sp who="#colonel" n="1020" from="01:25:55.916" to="01:25:56.749" >
 <p>What?</p>
 </sp>
-<milestone type="powers" who="tetsuo"/>
+<milestone type="powers" who="#tetsuo"/><note></note>
+   
+   
+   
 <sp who="#olympicguard1" n="1021" from="01:26:02.214" to="01:26:04.090" >
 <p>Where did that blast
 come from?</p>
@@ -5545,7 +5597,7 @@ being guarded by the second platoon.</p>
 <p>What the hell?</p>
 </sp>
 
-<milestone type="powers" who="tetsuo"/>
+<milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#olympicannouncer" n="1026" from="01:26:16.436" to="01:26:20.314" >
 <p>Please turn around now.
@@ -5561,7 +5613,7 @@ the escaped subject? Stop!</p>
 <p>Don't come any closer!
 Stop, damn it!</p>
 </sp>
-<milestone type="powers" who="tetsuo"/>
+<milestone type="powers" who="#tetsuo"/><note></note>
 <sp who="#tetsuo" n="1029" from="01:27:30.635" to="01:27:34.180" >
 <p>Nice place you have here, isn't it?</p>
 </sp>
@@ -5570,7 +5622,8 @@ Stop, damn it!</p>
 <p>You are the girl
 that was with Kaneda.</p>
 </sp>
-<spGrp type="controlScene">
+
+   <spGrp type="controlScene" subtype="super" who="#kei">
 
 <sp who="#kei" n="1031" from="01:27:44.483" to="01:27:48.402" >
 <p>You shouldn't use your power in this way,
@@ -5590,13 +5643,13 @@ control it, and it will control you.</p>
 <p>It's the kids talking.
 You're those brats, right?</p>
 </sp>
-<milestone type="powers" who="kei"/>
+<milestone type="powers" who="#kei"/><note></note>
 <sp who="#tetsuo" n="1035" from="01:28:16.223" to="01:28:18.265" >
 <p>Nice one!</p>
 </sp>
    
 </spGrp>
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
 <sp who="#onlooker" n="1036" from="01:28:39.871" to="01:28:41.789" >
 <p>What's going on?</p>
 </sp>
@@ -5609,14 +5662,14 @@ You're those brats, right?</p>
 <p>All right now. Next move.</p>
 </sp>
 
-         <milestone type="powers" who="kei"/>
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#kei"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#tetsuo" n="1039" from="01:31:04.557" to="01:31:05.933" >
 <p>Open now!</p>
 </sp>
 
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
          
 <sp who="#tetsuo" n="1040" from="01:31:16.903" to="01:31:18.946" >
 <p>What the hell is this?</p>
@@ -5655,7 +5708,7 @@ every test known to modern science.</p>
 <p>What you see there
 is all that's left of him.</p>
 </sp>
-<milestone type="powers" who="tetsuo"/>
+<milestone type="powers" who="#tetsuo"/><note></note>
          
 <sp who="#colonel" n="1048" from="01:31:48.435" to="01:31:50.644" >
 <p>And all of the scientists
@@ -5676,7 +5729,7 @@ all of their collected data and test samples...</p>
 <p>to future generations by preserving them
 in frozen capsules and locking them away.</p>
 </sp>
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="human" who="#colonel">
 <sp who="#colonel" n="1052" from="01:32:02.615" to="01:32:04.116" >
 <p>- SOL. We will use SOL.</p>
 </sp>
@@ -5703,7 +5756,7 @@ Tetsuo?</p>
 <p>Like hell!</p>
 </sp>
    
-   <milestone type="powers" who="tetsuo"/>
+   <milestone type="powers" who="#tetsuo"/><note></note>
    
 <sp who="#colonel" n="1058" from="01:32:23.470" to="01:32:25.679" >
 <p>Contact the central
@@ -5790,18 +5843,18 @@ of this pile of rumble.</p>
 <p>- That's "Mister" Kaneda to you, punk!</p>
 </sp>
 
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
 <sp who="#tetsuo" n="1076" from="01:34:06.239" to="01:34:08.198" >
 <p>Die!</p>
 </sp>
 
          <note><ab><persName ref="#kaneda">Kaneda</persName> fires a shot from his laser gun</ab>, and Tetsuo, already having an aura of psychic powers around him, deflects the laser shot point blank in front of his face.  However, the force of the laser energy knocks him backwards.  Kaneda has the upper hand at this point.</note>
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
 <sp who="#kaneda" n="1077" from="01:34:18.209" to="01:34:19.376" >
 <p>Tetsuo!</p>
 </sp>
 
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#tetsuo" n="1078" from="01:34:42.775" to="01:34:44.735" >
 <p>Son of a bitch!</p>
@@ -5815,7 +5868,7 @@ of this pile of rumble.</p>
 <p>Oh, damn it!</p>
 </sp>
 
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#tetsuo" n="1081">
 <p>Let's do it!</p>
@@ -5894,18 +5947,18 @@ being little and helpless?</p>
 <sp who="#kai" n="1099" from="01:36:40.184" to="01:36:42.102" >
 <p>Kaneda!</p>
 </sp>
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
 <sp who="#kaneda" n="1100" from="01:37:00.204" to="01:37:03.624" >
 <p>Tetsuo!</p>
 </sp>
     
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
     
 <sp who="#tetsuo" n="1101" from="01:37:18.514" to="01:37:19.931" >
 <p>Shit!</p>
 </sp>
 
-         <milestone type="powers" who="tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#kaneda" n="1102" from="01:37:21.267" to="01:37:23.060" >
 <p>What the......</p>
@@ -5915,7 +5968,7 @@ being little and helpless?</p>
 <p>Wh...!</p>
 </sp>
 
-<milestone type="powers"/>
+<milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#solcontrol1" n="1104" from="01:37:58.888" to="01:38:00.764" >
 <p>Correcting error now
@@ -5979,6 +6032,8 @@ Are you okay?</p>
 <sp who="#doctor" n="1118" from="01:39:17.008" to="01:39:18.925" >
 <p>Magnificent.</p>
 </sp>
+
+<milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#masaru" n="1119" from="01:39:29.061" to="01:39:31.104" >
 <p>When Tetsuo's power
@@ -6171,7 +6226,7 @@ Your arm! Look at it!</p>
 but it still works pretty good.</p>
 </sp>
 
-<milestone type="powers" />
+<milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#kaori" n="1161" from="01:43:02.608" to="01:43:04.985" >
 <p>What's wrong? Are you okay?</p>
@@ -6189,7 +6244,7 @@ but it still works pretty good.</p>
 <p>- Shut up! Just go away!</p>
 </sp>
 
-<spGrp type="controlScene">
+<spGrp type="controlScene" subtype="super" who="#tetsuo">
 
 <sp who="#tetsuo" n="1165" from="01:43:19.709" to="01:43:21.084" >
 <p>Medicine.</p>
@@ -6263,7 +6318,7 @@ and do what you're told.</p>
 and end up all shriveled like those kids!</p>
 </sp>
 
-<milestone type="powers"/>
+<milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#tetsuo" n="1180" from="01:44:10.843" to="01:44:14.054" >
 <p>Kaori.</p>
@@ -6288,18 +6343,22 @@ and end up all shriveled like those kids!</p>
 <sp who="#kaori" n="1185" from="01:44:27.026" to="01:44:28.359" >
 <p>No, Tetsu...!</p>
 </sp>
-
+<milestone type="powers" who="#tetsuo"/><note></note>
 <sp who="#tetsuo" n="1186" from="01:45:00.142" to="01:45:01.267" >
 <p>Kaneda!</p>
 </sp>
-
+<milestone type="powers" who="#tetsuo"/><note></note>
 <sp who="#tetsuo" n="1187" from="01:45:39.765" to="01:45:40.640" >
 <p>Huh?</p>
 </sp>
 
+<milestone type="powers" who="#takashi"/><note></note>
+
 <sp who="#tetsuo" n="1188" from="01:45:48.691" to="01:45:51.067" >
 <p>Son of a... Huh?</p>
 </sp>
+
+<milestone type="powers" who="#masaru"/><note></note>
 
 <sp who="#colonel" n="1189" from="01:45:53.946" to="01:45:56.114" >
 <p>What are you three...doing here?</p>
@@ -6415,6 +6474,8 @@ Hurry! Get away from here!</p>
 <p>Kiyoko! Taka......</p>
 </sp>
 
+<milestone type="powers" who="#akira"/><note></note>
+
 <sp who="#masaru" n="1216" from="01:49:51.350" to="01:49:52.392" >
 <p>Hi.</p>
 </sp>
@@ -6430,6 +6491,8 @@ Hurry! Get away from here!</p>
 <sp who="#doctor" n="1219" from="01:50:07.449" to="01:50:09.534" >
 <p>But that's impossible!</p>
 </sp>
+
+<milestone type="powers" who="#kiyoko"/><note></note>
 
 <sp who="#colonel" n="1220" from="01:50:19.294" to="01:50:21.671" >
 <p>Where am I?</p>

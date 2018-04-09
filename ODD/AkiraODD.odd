@@ -129,6 +129,9 @@
                         <valItem ident="#colonel #doctor"/>
                         <valItem ident="#tetsuo #kaneda"/>
                         <valItem ident="#kiyoko #tetsuo #masaru #takashi"/>
+                        <valItem ident="#nezu"/>
+                        <valItem ident="#army"/>
+                        
                      </valList>
                   </attDef>
                </attList>
@@ -140,7 +143,7 @@
                      <sch:assert test="@who = ('#akira','#tetsuo', '#kiyoko', '#masaru', '#takashi', '#kei')">The XML markup should reflect that only Akira, Tetsuo, Kiyoko, Masaru, Takashi, or Kei exercise superpowers.</sch:assert>
                   </sch:rule>
                   <sch:rule context="tei:spGrp[@subtype='human']">
-                     <sch:assert test="@who = ('#kaneda','#yamagata', '#doctor', '#colonel', '#colonel #doctor', '#tetsuo #kaneda', '#kiyoko #tetsuo #masaru #takashi')">The XML markup should reflect that Kaneda, Yamagata, the doctor, the colonel exercise human powers. These combinations of characters together: Tetsuo and Kaneda, as well as Kiyoko, Tetsuo, Masaru, and Takashi also exercise distinctly human powers.</sch:assert>
+                     <sch:assert test="@who = ('#kaneda','#yamagata', '#doctor', '#colonel', '#colonel #doctor', '#tetsuo #kaneda', '#kiyoko #tetsuo #masaru #takashi', '#nezu #ryu')">The XML markup should reflect that Kaneda, Yamagata, the doctor, the colonel exercise human powers. These combinations of characters together: Tetsuo and Kaneda, as well as Kiyoko, Tetsuo, Masaru, and Takashi also exercise distinctly human powers.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>

@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-04-07T23:33:24Z. .
+Schema generated from ODD source 2018-04-08T16:42:52Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -10751,6 +10751,10 @@ Suggested values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>#kiyoko #tetsuo #masaru #takashi</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#nezu</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#army</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
          <empty/>
@@ -11702,7 +11706,7 @@ You must supply at least two values for @target on <name/>
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:spGrp[@subtype='human']">
-                     <sch:assert test="@who = ('#kaneda','#yamagata', '#doctor', '#colonel', '#colonel #doctor', '#tetsuo #kaneda', '#kiyoko #tetsuo #masaru #takashi')">The XML markup should reflect that Kaneda, Yamagata, the doctor, the colonel exercise human powers. These combinations of characters together: Tetsuo and Kaneda, as well as Kiyoko, Tetsuo, Masaru, and Takashi also exercise distinctly human powers.</sch:assert>
+                     <sch:assert test="@who = ('#kaneda','#yamagata', '#doctor', '#colonel', '#colonel #doctor', '#tetsuo #kaneda', '#kiyoko #tetsuo #masaru #takashi', '#nezu #ryu')">The XML markup should reflect that Kaneda, Yamagata, the doctor, the colonel exercise human powers. These combinations of characters together: Tetsuo and Kaneda, as well as Kiyoko, Tetsuo, Masaru, and Takashi also exercise distinctly human powers.</sch:assert>
                   </sch:rule>
    </pattern>
 </grammar>
