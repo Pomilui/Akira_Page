@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900">
+    <g transform="translate(200, 100)">
+        <line x1="200" y1="500" x2="810" y2="500" stroke="black" stroke-width="8"/>
+        <line x1="200" y1="504" x2="200" y2="50" stroke="black" stroke-width="8"/>
+        <rect x="250" y="426" width="50" height="70" style="fill:green; stroke:black;"/>
+        <text x="250" y="375" fill="green">Takashi 
+            <tspan x="275" y="400">7</tspan></text>
+        <rect x="350" y="126" width="50" height="370" style="fill:Red; stroke:black;"/>
+        <text x="350" y="90" fill="red">Tetsuo 
+            <tspan x="365" y="110">37</tspan></text>
+        <rect x="450" y="456" width="50" height="40" style="fill:blue; stroke:black;"/>
+        <text x="450" y="425" fill="blue">Masaru 
+            <tspan x="466" y="445">4</tspan></text>
+        <rect x="550" y="416" width="50" height="80" style="fill:pink; stroke:black;"/>
+        <text x="550" y="375" fill="pink">Kiyoko 
+            <tspan x="565" y="395">8</tspan></text>
+        <rect x="650" y="466" width="50" height="30" style="fill:gold; stroke:black;"/>
+        <text x="653" y="435" fill="gold">Kei
+            <tspan x="660" y="455">3</tspan></text>
+        <rect x="750" y="486" width="50" height="10" style="fill:white; stroke:black;"/>
+        <text x="750" y="450" fill="black">Akira 
+            <tspan x="765" y="470">1</tspan></text>
+        
+        <text x="450" y="530" fill="Black">Characters</text>
+        <text x="50" y="275" fill="black">Number of Times 
+            <tspan x="50" y="300">Powers Are Used</tspan></text>
+        <text x="450" y="50" fill="Black">Power Usage</text>
+    </g>
+</svg>

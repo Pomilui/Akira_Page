@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900">
+    <g transform="translate(200, 100)">
+        <line x1="500" y1="200" x2="50" y2="500" stroke="Brown"/>
+    </g>
+</svg>
