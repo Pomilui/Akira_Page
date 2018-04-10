@@ -1156,7 +1156,7 @@ casualties. Next...</p>
 <p>- What was that?
 - Call the Police!</p>
 </sp>
-
+<spGrp type="controlScene" subtype="super" who="#takashi">
 <sp who="#soldier1" n="50" from="00:08:21.224" to="00:08:24.727" >
 <p>This area is off limits!</p>
 </sp>
@@ -1253,7 +1253,7 @@ They're running away!</p>
 <sp who="#kei" n="71" from="00:10:27.058" to="00:10:28.767" >
 <p>He's gone!</p>
 </sp>
-
+</spGrp>
 <milestone type="powers" who="#masaru"/><note>Masaru, a fellow Esper, uses his powers to detect where Takashi teleported.</note>
 
 <sp who="#masaru" n="72">
@@ -1338,6 +1338,8 @@ He needs an ambulance!</p>
 <p>We can't move him!</p>
 </sp>
 
+<spGrp type="controlScene" subtype="super" who="#masaru">
+
 <sp who="#takashi" n="91" from="00:13:57.518" to="00:13:59.811" >
 <p>Wha...What the...!</p>
 </sp>
@@ -1358,7 +1360,10 @@ back with us.</p>
 <sp who="#masaru" n="95" from="00:14:33.638" to="00:14:35.180" >
 <p>Well, come along.</p>
 </sp>
-
+</spGrp>
+         
+         <spGrp type="controlScene" subtype="human" who="#army">
+         
 <sp who="#yamagata" n="96" from="00:14:38.309" to="00:14:41.353" >
 <p>Army helicopters!
 It's the army!</p>
@@ -1444,7 +1449,7 @@ We didn't do anything!</p>
 <sp who="#kai" n="114" from="00:16:05.980" to="00:16:07.355" >
 <p>Get off!</p>
 </sp>
-
+         </spGrp>
 <sp who="#officer" n="115" from="00:17:07.542" to="00:17:12.003" >
 <p>All right. The story is, you and your
 friends went out at night...</p>
@@ -2519,7 +2524,7 @@ What are we gonna do?</p>
 <sp who="#kaneda" n="350" from="00:33:17.177" to="00:33:18.385" >
 <p>That's......</p>
 </sp>
-
+<spGrp type="controlScene" subtype="human" who="#army">
 <sp who="#kai" n="351" from="00:33:18.512" to="00:33:21.972" >
 <p>Here we go again. Look, let's get out of here
 before we get caught up in it.</p>
@@ -2547,7 +2552,7 @@ line up in single file...</p>
 <p>present your I.D. and proceed
 through the checkpoint.</p>
 </sp>
-
+</spGrp>
 <sp who="#ryu" n="357" from="00:33:48.708" to="00:33:51.168" >
 <p>Get in.
 What's wrong? Hurry.</p>
@@ -3182,7 +3187,8 @@ which will make it fall to fruition......</p>
 <p>but rather, those citizens
 who hope for Akira that will.</p>
 </sp>
-
+</spGrp>
+<spGrp type="controlScene" subtype="human" who="#army">
 <sp who="#miyako" n="501" from="00:44:35.271" to="00:44:38.648" >
 <p>That which is called science
 perverts providence!</p>
@@ -5087,7 +5093,7 @@ Yamagata his wheels.</p>
 <sp who="#kaneda" n="914" from="01:16:46.867" to="01:16:48.076" >
 <p>What's wrong?</p>
 </sp>
-<milestone type="powers" who="#kei"/>
+<milestone type="powers" who="#kei"/><note></note>
 <sp who="#kaneda" n="915" from="01:16:52.373" to="01:16:54.874" >
 <p>That night. You were there.</p>
 </sp>
@@ -5517,7 +5523,7 @@ Then converge your beams.</p>
 <p>Watch this!</p>
 </sp>
 
-         <milestone type="powers" who="#tetsuo"/>
+         <milestone type="powers" who="#tetsuo"/><note></note>
 
 <sp who="#lasercommand" n="1009" from="01:25:09.870" to="01:25:12.413" >
 <p>Look out!
