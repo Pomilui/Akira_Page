@@ -1,30 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900">
-    <g transform="translate(200, 100)">
-        <line x1="200" y1="500" x2="810" y2="500" stroke="red" stroke-width="8"/>
-        <line x1="200" y1="504" x2="200" y2="50" stroke="red" stroke-width="8"/>
+    <g transform="translate(200, 500)"><!--ebb: We've set transform="translate()" on the svg element above so you can plot the graph from 0,0. That makes it a lot easier to plot the SVG shapes, but it means that values above the X axis have to climb UP the screen from zero to negative numbers. The line below is the X axis, and we're setting it to start at 0,0 -->
+        <line x1="0" y1="0" x2="810" y2="0" stroke="red" stroke-width="8"/><!--The line below is the Y axis, and it, too, starts at 0,0 -->
+        <line x1="0" y1="0" x2="0" y2="-500" stroke="red" stroke-width="8"/><!--ebb: I remembered what we have to do to sort your bars! We need to sort the values based on their associated counts BEFORE we start using the $pos variable. I've done this by creating a new variable, $sortedPowers, that contains its own for-loop, and outputs the powernames in descending order. Then they are all available in sorted form in the loop we use to plot the graph parts. Note that the $treeMatch and $count variables aren't available in the other for loop: they go away once their loop is complete and the values all sorted. They're exactly the same values, though, that we see in the other loop. -->
         <g>
-            <rect x="525" y="449" width="50" height="370"/>
-            <text>#tetsuo</text>
+            <rect x="100" y="-370" width="50" height="370" fill="hsl(358, 370%, 30%)"/>
+            <text x="100" y="30">#tetsuo<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#tetsuo"/>(37)</text>
         </g>
         <g>
-            <rect x="425" y="478" width="50" height="80"/>
-            <text>#kiyoko</text>
+            <rect x="200" y="-80" width="50" height="80" fill="hsl(358, 80%, 30%)"/>
+            <text x="200" y="30">#kiyoko<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kiyoko"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kiyoko"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kiyoko"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kiyoko"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kiyoko"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kiyoko"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kiyoko"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kiyoko"/>(8)</text>
         </g>
         <g>
-            <rect x="225" y="479" width="50" height="70"/>
-            <text>#takashi</text>
+            <rect x="300" y="-70" width="50" height="70" fill="hsl(358, 70%, 30%)"/>
+            <text x="300" y="30">#takashi<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#takashi"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#takashi"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#takashi"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#takashi"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#takashi"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#takashi"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#takashi"/>(7)</text>
         </g>
         <g>
-            <rect x="325" y="482" width="50" height="40"/>
-            <text>#masaru</text>
+            <rect x="400" y="-40" width="50" height="40" fill="hsl(358, 40%, 30%)"/>
+            <text x="400" y="30">#masaru<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#masaru"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#masaru"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#masaru"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#masaru"/>(4)</text>
         </g>
         <g>
-            <rect x="625" y="483" width="50" height="30"/>
-            <text>#kei</text>
+            <rect x="500" y="-30" width="50" height="30" fill="hsl(358, 30%, 30%)"/>
+            <text x="500" y="30">#kei<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kei"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kei"/>
+                <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#kei"/>(3)</text>
         </g>
         <g>
-            <rect x="725" y="485" width="50" height="10"/>
-            <text>#akira</text>
+            <rect x="600" y="-10" width="50" height="10" fill="hsl(358, 10%, 30%)"/>
+            <text x="600" y="30">#akira<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="#akira"/>(1)</text>
         </g>
     </g>
 </svg>
