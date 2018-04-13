@@ -162,3 +162,62 @@ font-family: arial, helvetica, sans-serif;
     letter-spacing: 5px;
     margin: 0;
     padding: 0;}
+    
+    
+span.persName.on{
+    color: #d8a244;
+    font-weight: 800;
+}
+
+span.persNameToggle{
+    color: #d8a244;
+}
+
+span.loc.on{
+    color: brown;
+    font-weight: 800;
+}
+
+span.locToggle{
+    color: brown;
+}
+
+
+span.current.on{
+    color: blue;
+    font-weight: 800;
+}
+
+span.currentToggle{
+    color: blue;
+}
+
+
+span.company.on{
+    color: teal;
+    font-weight: 800;
+}
+
+span.companyToggle{
+    color: teal;
+}
+
+
+span.date.on{
+    color: green;
+    font-weight: 800;
+}
+
+span.dateToggle{
+    color: green;
+}
+
+
+span.event.on{
+    color: red;
+    font-weight: 800;
+}
+
+span.eventToggle{
+    color: red;
+}

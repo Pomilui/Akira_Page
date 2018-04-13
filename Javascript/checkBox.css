@@ -1,4 +1,63 @@
-span.place.on {color:#ed4630}
-span.character.on {color:#2a6b6f}
-span.object.on {color:#161417}
 
+    /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
+span.persName.on{
+    color: #d8a244;
+    font-weight: 800;
+}
+
+span.persNameToggle{
+    color: #d8a244;
+}
+/* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
+span.loc.on{
+    color: brown;
+    font-weight: 800;
+}
+
+span.locToggle{
+    color: brown;
+}
+
+/* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
+span.current.on{
+    color: blue;
+    font-weight: 800;
+}
+
+span.currentToggle{
+    color: blue;
+}
+
+/* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
+span.company.on{
+    color: teal;
+    font-weight: 800;
+}
+
+span.companyToggle{
+    color: teal;
+}
+
+/* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
+span.date.on{
+    color: green;
+    font-weight: 800;
+}
+
+span.dateToggle{
+    color: green;
+}
+
+/* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
+span.event.on{
+    color: red;
+    font-weight: 800;
+}
+
+span.eventToggle{
+    color: red;
+}
+/* 2017-12-07 ajn: this is for the articles on the outline page */
+.h2outline{
+    text-align: center;z
+}
