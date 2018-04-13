@@ -8,7 +8,7 @@ html{
 }
 body{
     margin: 0;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 40px;
 }
 header{
@@ -131,7 +131,7 @@ div.body{
     margin: auto;
 }
 p{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Arial', cursive;
     color: #ed4630;
     font-size: 22px;
     line-height: 2.0;
@@ -144,7 +144,7 @@ p{
     text-align:justify;
     }
 h1{
-    font-family: 'Teko', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 80px;
     color: #2a6b6f;
     line-height: 1.0;
