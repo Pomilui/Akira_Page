@@ -13,8 +13,8 @@ function init() {
 function toggleInput() {
     var id = this.id;
     switch (id) {
-        case "persNameToggle": {
-            var commas = document.getElementsByClassName("persName");
+        case "controlSceneToggle": {
+            var commas = document.getElementsByClassName("controlScene");
             for (var i = 0; i < commas.length; i++) {
                 commas[i].classList.toggle("on")
             }
