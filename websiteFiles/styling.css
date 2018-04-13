@@ -9,7 +9,7 @@ html{
 body{
     margin: 0;
     font-family: 'Teko', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 header{
     padding: 20px 0;
@@ -153,3 +153,12 @@ h1{
     margin: 0;
     padding: 0;
 }
+h2{
+font-family: arial, helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+    line-height: 1.0;
+    text-align:center;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 0;}
