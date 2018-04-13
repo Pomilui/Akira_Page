@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Teko');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 html{
-   /* background: url(images/background.png);
+    background: url(images/background.png);
     background-attachment: fixed;
     background-position: bottom;
-    background-size: cover;*/
+    background-size: cover;
 }
 body{
     margin: 0;
     font-family: 'Arial', sans-serif;
-   /* font-size: 30px;*/
+    font-size: 40px;
 }
 header{
     padding: 20px 0;
@@ -131,7 +131,7 @@ div.body{
     margin: auto;
 }
 p{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Arial', cursive;
     color: #ed4630;
     font-size: 22px;
     line-height: 2.0;
@@ -144,7 +144,7 @@ p{
     text-align:justify;
     }
 h1{
-    font-family: 'Teko', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 80px;
     color: #2a6b6f;
     line-height: 1.0;
@@ -152,4 +152,72 @@ h1{
     letter-spacing: 5px;
     margin: 0;
     padding: 0;
+}
+h2{
+font-family: arial, helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+    line-height: 1.0;
+    text-align:center;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 0;}
+    
+    
+span.persName.on{
+    color: #d8a244;
+    font-weight: 800;
+}
+
+span.persNameToggle{
+    color: #d8a244;
+}
+
+span.loc.on{
+    color: brown;
+    font-weight: 800;
+}
+
+span.locToggle{
+    color: brown;
+}
+
+
+span.current.on{
+    color: blue;
+    font-weight: 800;
+}
+
+span.currentToggle{
+    color: blue;
+}
+
+
+span.company.on{
+    color: teal;
+    font-weight: 800;
+}
+
+span.companyToggle{
+    color: teal;
+}
+
+
+span.date.on{
+    color: green;
+    font-weight: 800;
+}
+
+span.dateToggle{
+    color: green;
+}
+
+
+span.event.on{
+    color: red;
+    font-weight: 800;
+}
+
+span.eventToggle{
+    color: red;
 }
