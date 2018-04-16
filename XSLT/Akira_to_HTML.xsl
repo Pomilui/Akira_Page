@@ -30,10 +30,11 @@
    
 <h2>Akira Script</h2>   
    <xsl:apply-templates select="descendant::body"/>
-   
+          
             </body>
         </html>
     </xsl:template>
+   
     <xsl:template match="person">
         <xsl:if test="//sp[substring-after(@who, '#') = current()/@xml:id]">
             <xsl:variable name="firstSpeechNum" select="(//sp[substring-after(@who, '#') = current()/@xml:id])[1]/@n"/>
@@ -65,12 +66,13 @@
         
         <xsl:template match="milestone">
             <span class="noteNum"><xsl:value-of select="count(preceding::note) + 1"/>
-                <span title="{@who}" class="note"><xsl:value-of select ="following-sibling::note[1]"/></span></span>
+                <span title="{@who}" class="note"><xsl:apply-templates select ="following-sibling::note[1]" mode="notes"/></span></span>
              
         </xsl:template>
         
-    <xsl:template match="note">
-    </xsl:template>
+<xsl:template match="note"/>
+
+
     
     
 </xsl:stylesheet>
