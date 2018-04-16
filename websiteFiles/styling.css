@@ -131,7 +131,7 @@ div.body{
     margin: auto;
 }
 div#scriptbody{
-    background-color: white;
+    background-color: #161417;
     width: 85%;
     margin: auto;
 
@@ -139,7 +139,7 @@ div#scriptbody{
 p{
     font-family: 'Arial', sans-serif;
     color: #ed4630;
-    /*    font-size: 22px;*/
+       font-size: 22px;
     line-height: 2.0;
     margin: 0;
     padding: 0;
@@ -219,4 +219,23 @@ fieldset{
 div.toggle{
      margin-left: 10%;
     margin-right: 10%;
+}
+blockimage{
+    display: block;
+}
+tr{
+    color: white;
+    
+}
+tr.fly{
+    color: #ed4630;
+    
+}
+table#test{
+    font-size: 24px;
+   text-align: center;
+   margin: auto;
+}
+div#Linkage{
+    margin:auto;
 }
