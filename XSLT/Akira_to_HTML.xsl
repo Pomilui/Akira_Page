@@ -58,12 +58,13 @@
     <xsl:template match="sp">
 
                <div class="sp" id="{string-join(for $i in tokenize(@who, ' ') return substring-after($i, '#'), '_')}_{@n}">     
-                   <strong><xsl:apply-templates select="@who"/> </strong>  
+                   <span><xsl:apply-templates select="@who"/> </span>  
                    <p><xsl:apply-templates/></p>
                </div>
             
     </xsl:template>
         
+        <xsl:templa
         
     
     

@@ -22,8 +22,6 @@ header{
     margin: 0 auto;
 }
 .logo-box{
-    float: left;
-    margin-right: 20px;
 }
 .logo-box a{
     outline: none;
@@ -31,6 +29,9 @@ header{
 }
 .logo-box img{
     display: block;
+}
+img.Phooey{
+    
 }
 nav{
     overflow: hidden;
@@ -222,6 +223,7 @@ div.toggle{
 }
 blockimage{
     display: block;
+    margin:auto;
 }
 tr{
     color: white;
@@ -238,4 +240,11 @@ table#test{
 }
 div#Linkage{
     margin:auto;
+}
+strong#Cray{
+    color: white;
+}
+span.Cray{
+    font-weight: bold;
+    color: white;
 }
