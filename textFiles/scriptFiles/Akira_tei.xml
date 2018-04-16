@@ -5090,7 +5090,7 @@ Yamagata his wheels.</p>
 <p>Kei!</p>
 </sp>
 
-<milestone type="powers" who="#takashi"/><note></note>
+<milestone type="powers" who="#takashi"/><note>Takashi appears across the stream bank.  He uses his powers to take control of Kei's body to walk towards him as they both are walking on the water.</note>
 
 <sp who="#kaneda" n="914" from="01:16:46.867" to="01:16:48.076" >
 <p>What's wrong?</p>
@@ -5117,7 +5117,7 @@ Yamagata his wheels.</p>
 You changed my friend, didn't you?</p>
 </sp>
 
-<milestone type="powers" who="#kiyoko"/><note></note>
+<milestone type="powers" who="#kiyoko"/><note>Kiyoko uses her powers to speak to Kaneda and Kai.  She is still far away in her bed at the nursery.  Kaneda and Kai are confused about what is happening.</note>
 
 <sp who="#kiyoko" n="920" from="01:17:17.690" to="01:17:19.399" >
 <p>The thing about Akira's power is...</p>
@@ -5267,8 +5267,8 @@ you can't be seen here!</p>
 <sp who="#ryu" n="952" from="01:19:33.826" to="01:19:35.201" >
 <p>What?</p>
 </sp>
-<milestone type="plot"/><note></note>
-<sp who="#kei" n="953" from="01:19:38.372" to="01:19:39.706" >
+<milestone type="plot"/><note>Mr. Nezu, in the middle of having a heart attack, shoots Ryu with a pistol.</note>
+<sp who="#ryu" n="953" from="01:19:38.372" to="01:19:39.706" >
 <p>Kei!</p>
 </sp>
 
@@ -5285,7 +5285,7 @@ is just up ahead.</p>
 <p>It intersects this road
 a hundred meters from here.</p>
 </sp>
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo uses his powers to cause a helicopter to lose control and crash into the street at the crossing.</note>
 <sp who="#tankcommand2" n="957" from="01:20:03.564" to="01:20:05.189" >
 <p>Battle stations!</p>
 </sp>
@@ -5324,7 +5324,7 @@ are complete.</p>
 <sp who="#tankcommand2" n="965" from="01:20:47.274" to="01:20:49.067" >
 <p>Damn it! Fire!</p>
 </sp>
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo brings the tank shell to a stop a few feet in front of him where it explodes.  His powers protect him from the blast, and, when the smoke clears the crowd gasps in shock.</note>
 <sp who="#akirafan2" n="966" from="01:21:02.081" to="01:21:04.749" >
 <p>Is it Akira?</p>
 </sp>
@@ -5356,7 +5356,7 @@ are complete.</p>
 <sp who="#tankcommand2" n="973" from="01:21:19.723" to="01:21:21.015" >
 <p>- What's wrong?</p>
 </sp>
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo begins to crush the tank with his powers and causes it to explode.</note>
 <spGrp type="controlScene" subtype="human" who="#army">
 <sp who="#newscast" n="974" from="01:22:48.562" to="01:22:51.272" >
 <p>Coming to you live aboard news
@@ -5518,14 +5518,14 @@ Then converge your beams.</p>
 <sp who="#lasercommand" n="1007" from="01:24:53.687" to="01:24:55.730" >
 <p>Aim, fire!</p>
 </sp>
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>The seven lasers guns are focused on Tetsuo who stretches out his arms in front of him to deflect the lasers to his left side.  The cement around him is ripped apart as his powers are activated.</note>
    
    
 <sp who="#tetsuo" n="1008" from="01:25:01.862" to="01:25:03.738" >
 <p>Watch this!</p>
 </sp>
 
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note>Tetsuo lifts a section of the bridge upward which causes a chain reaction of all sections of the bridge to collapse.  The tank is thrown forward and accidentally fires a round killing several soldiers.  The spectators and many other tumbled down the bridge and into the river.  </note>
 
 <sp who="#lasercommand" n="1009" from="01:25:09.870" to="01:25:12.413" >
 <p>Look out!
@@ -5605,7 +5605,7 @@ being guarded by the second platoon.</p>
 <p>What the hell?</p>
 </sp>
 
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo is walkinig on the water that separates the highway from the restricted Olympic Stadium underground area.</note>
 
 <sp who="#olympicannouncer" n="1026" from="01:26:16.436" to="01:26:20.314" >
 <p>Please turn around now.
@@ -5657,7 +5657,7 @@ You're those brats, right?</p>
 </sp>
    
 </spGrp>
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note>Tetsuo, in a massive display of his powers, lifts the arena-sized container that holds the remains of Akira up from underground to the surface.</note>
 <sp who="#onlooker" n="1036" from="01:28:39.871" to="01:28:41.789" >
 <p>What's going on?</p>
 </sp>
@@ -5670,14 +5670,14 @@ You're those brats, right?</p>
 <p>All right now. Next move.</p>
 </sp>
 
-         <milestone type="powers" who="#kei"/><note></note>
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#kei"/><note>Kei activates her powers, creates a distracting smoke screen by disconnecting a giant cable attached to the containment structure, and prepares to surprise Tetsuo by flying in from behind him.</note>
+         <milestone type="powers" who="#tetsuo"/><note>Tetsuo, sensing the danger behind him, activates the full strength of his powers with a yell, which causes Kei attack to be stalled.  A violent telekenetic battle ensues that destroys sections of the city and crumbles the giant containment structure to the ground.</note>
 
 <sp who="#tetsuo" n="1039" from="01:31:04.557" to="01:31:05.933" >
 <p>Open now!</p>
 </sp>
 
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note>Tetsuo, victorious in the battle with Kei, is free to see what is in the final container of Akira's remains.  He swipes at the container to break it open.</note>
          
 <sp who="#tetsuo" n="1040" from="01:31:16.903" to="01:31:18.946" >
 <p>What the hell is this?</p>
@@ -5716,7 +5716,7 @@ every test known to modern science.</p>
 <p>What you see there
 is all that's left of him.</p>
 </sp>
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo hovers a capsule containing Akira's brain to view it closer with intrigue. </note>
          
 <sp who="#colonel" n="1048" from="01:31:48.435" to="01:31:50.644" >
 <p>And all of the scientists
@@ -5764,7 +5764,7 @@ Tetsuo?</p>
 <p>Like hell!</p>
 </sp>
    
-   <milestone type="powers" who="#tetsuo"/><note></note>
+   <milestone type="powers" who="#tetsuo"/><note>Tetsuo angrily shoots a massive wave of energy back at the vehicle where the Colonel is speaking through an intercom.  The blast shakes the vehicle violently.  </note>
    
 <sp who="#colonel" n="1058" from="01:32:23.470" to="01:32:25.679" >
 <p>Contact the central
@@ -5851,7 +5851,7 @@ of this pile of rumble.</p>
 <p>- That's "Mister" Kaneda to you, punk!</p>
 </sp>
 
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note>Tetsuo activates his powers in anger.</note>
 <sp who="#tetsuo" n="1076" from="01:34:06.239" to="01:34:08.198" >
 <p>Die!</p>
 </sp>
@@ -5862,7 +5862,7 @@ of this pile of rumble.</p>
 <p>Tetsuo!</p>
 </sp>
 
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note>Kaneda fires another shot at Tetsuo who quickly flies upward and lands several yards away. </note>
 
 <sp who="#tetsuo" n="1078" from="01:34:42.775" to="01:34:44.735" >
 <p>Son of a bitch!</p>
@@ -5876,7 +5876,7 @@ of this pile of rumble.</p>
 <p>Oh, damn it!</p>
 </sp>
 
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note>Upon seeing Kei crawling out of a ditch where she landed after fighting Tetsuo, he yells to get her attention.  However, Tetsuo now knows where Kaneda is in the huge pile of rubble.  Kaneda leaps away just before an energy blast explodes where he was standing.  </note>
 
 <sp who="#tetsuo" n="1081">
 <p>Let's do it!</p>
@@ -5955,18 +5955,18 @@ being little and helpless?</p>
 <sp who="#kai" n="1099" from="01:36:40.184" to="01:36:42.102" >
 <p>Kaneda!</p>
 </sp>
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note>Tetsuo, covered by the rubble from a SOL satelite blast, blows the rubble off of him to see that his arm has been shot off by the blast.  Grabbing his wound, he writhes in pain.  Kaneda prepares to throw a rock down on Tetsuo from atop the rubble. </note>
 <sp who="#kaneda" n="1100" from="01:37:00.204" to="01:37:03.624" >
 <p>Tetsuo!</p>
 </sp>
     
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note>When the second volley from the SOL satellite hits, Tetsuo creates a huge bubble of protection.  Kaneda is amazed as the rubble around the area is being exploded around him.  </note>
     
 <sp who="#tetsuo" n="1101" from="01:37:18.514" to="01:37:19.931" >
 <p>Shit!</p>
 </sp>
 
-         <milestone type="powers" who="#tetsuo"/><note></note>
+         <milestone type="powers" who="#tetsuo"/><note>After the blast from the satelite ends, Tetsuo follows the beam of energy skyward.</note>
 
 <sp who="#kaneda" n="1102" from="01:37:21.267" to="01:37:23.060" >
 <p>What the......</p>
@@ -5976,7 +5976,7 @@ being little and helpless?</p>
 <p>Wh...!</p>
 </sp>
 
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo flies all the way to where the SOL satellite is orbiting the Earth.  He flies to the top of the sattelite and uses his powers to take control of the sattelite and shoot many rounds down on Neo-Tokyo</note>
 
 <sp who="#solcontrol1" n="1104" from="01:37:58.888" to="01:38:00.764" >
 <p>Correcting error now
@@ -6041,7 +6041,7 @@ Are you okay?</p>
 <p>Magnificent.</p>
 </sp>
 
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo creates a replacement mechanical arm out of the rubble that floats perfectly into place.  </note>
 
 <sp who="#masaru" n="1119" from="01:39:29.061" to="01:39:31.104" >
 <p>When Tetsuo's power
@@ -6234,7 +6234,7 @@ Your arm! Look at it!</p>
 but it still works pretty good.</p>
 </sp>
 
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo's begins to lose control of his powers.  Some wires shoot out from his arm and dig into the cement chair where he's sitting.</note>
 
 <sp who="#kaori" n="1161" from="01:43:02.608" to="01:43:04.985" >
 <p>What's wrong? Are you okay?</p>
@@ -6326,7 +6326,7 @@ and do what you're told.</p>
 and end up all shriveled like those kids!</p>
 </sp>
 
-<milestone type="powers" who="#tetsuo"/><note></note>
+<milestone type="powers" who="#tetsuo"/><note>Tetsuo yells and throws the Colonel back with a blast of energy.</note>
 
 <sp who="#tetsuo" n="1180" from="01:44:10.843" to="01:44:14.054" >
 <p>Kaori.</p>

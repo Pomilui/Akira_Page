@@ -130,94 +130,93 @@ div.body{
     width: 95%;
     margin: auto;
 }
+div#scriptbody{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+
+}
 p{
-    font-family: 'Arial', cursive;
+    font-family: 'Arial', sans-serif;
     color: #ed4630;
-    font-size: 22px;
+    /*    font-size: 22px;*/
     line-height: 2.0;
     margin: 0;
     padding: 0;
     text-indent: 50px;
-    margin-left:5%;
-    margin-right:5%;
-    margin-bottom:0.5%;
-    text-align:justify;
-    }
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0.5%;
+    text-align: justify;
+}
 h1{
     font-family: 'Arial', sans-serif;
-    font-size: 80px;
     color: #2a6b6f;
     line-height: 1.0;
-    text-align:center;
+    text-align: center;
     letter-spacing: 5px;
     margin: 0;
     padding: 0;
 }
 h2{
-font-family: arial, helvetica, sans-serif;
-    font-size: 60px;
-    color: white;
+    font-family: 'Arial', sans-serif;
+    color: #ed4630;
     line-height: 1.0;
-    text-align:center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+span.controlScene.on{
+    color: #d8a244;
+    font-weight: 800;
+}
+
+span.controlSceneToggle{
+    color: #d8a244;
+}
+
+span.controlScene.on{
+    color: #d8a244;
+    font-weight: 800;
+}
+
+span.controlSceneToggle{
+    color: #d8a244;
+}
+h3{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 60px;
+    color: #161417;
+    line-height: 1.0;
+    text-align: center;
     letter-spacing: 5px;
     margin: 0;
-    padding: 0;}
-    
-    
-span.persName.on{
-    color: #d8a244;
-    font-weight: 800;
+    padding: 0;
 }
-
-span.persNameToggle{
-    color: #d8a244;
+div.sp{
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    line-height: 2.0;
+    margin: 0;
+    padding: 0;
+    text-indent: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0.5%;
+    text-align: justify;
 }
-
-span.loc.on{
-    color: brown;
-    font-weight: 800;
+hr{
+    color: #f00;
+    background-color: #f00;
+    height: 3px;
 }
-
-span.locToggle{
-    color: brown;
+fieldset{
+    font-family: 'Arial', sans-serif;
+    color: #2a6b6f;
 }
-
-
-span.current.on{
-    color: blue;
-    font-weight: 800;
-}
-
-span.currentToggle{
-    color: blue;
-}
-
-
-span.company.on{
-    color: teal;
-    font-weight: 800;
-}
-
-span.companyToggle{
-    color: teal;
-}
-
-
-span.date.on{
-    color: green;
-    font-weight: 800;
-}
-
-span.dateToggle{
-    color: green;
-}
-
-
-span.event.on{
-    color: red;
-    font-weight: 800;
-}
-
-span.eventToggle{
-    color: red;
+div.toggle{
+     margin-left: 10%;
+    margin-right: 10%;
 }
