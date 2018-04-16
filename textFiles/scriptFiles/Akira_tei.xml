@@ -3503,6 +3503,9 @@ but the work's gotta be done sooner or later.</p>
 <p>All right, guys. Let's go.</p>
 </sp>
 
+<milestone type="powers" who="#kiyoko #tetsuo #masaru #takashi"/><note>Appearing as tiny toys on Tetsuo's pillow, the Espers march towards Tetsuo as a hallucination.  When Tetsuo grabs at them, they take shape into towering forms of a Teddy Bear, a rabbit, and a toy car.  They try to scare and kill Tetsuo with their powers.</note>
+
+
 <sp who="#tetsuo" n="568" from="00:50:34.296" to="00:50:35.338" >
 <p>What the...!</p>
 </sp>
@@ -3561,6 +3564,8 @@ allowed to leave your room!</p>
 <sp who="#nurseguard2" n="581" from="00:53:02.194" to="00:53:03.778" >
 <p>- Looks terrible.</p>
 </sp>
+
+<milestone type="powers" who="#tetsuo"></milestone><note>Tetsuo uses his newfound powers to explode the lab assistant and his two guards all over the walls in the hallway.  All that remains of them are blood and body parts dripping from the walls.  </note>
 
 <sp who="#spy2" n="582" from="00:53:25.968" to="00:53:30.179" >
 <p>There are 58 blocks with circuits
@@ -6774,7 +6779,7 @@ the birth of the universe.</p>
 
 <sp who="#doctor" n="1282" from="01:57:11.122" to="01:57:12.957" >
 <p>Disappearing.
-It's disappearing.</p>
+It's disappearing.</p>  
 </sp>
 
 <sp who="#kei" n="1283" from="01:58:24.279" to="01:58:26.530" >
