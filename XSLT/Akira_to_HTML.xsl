@@ -51,7 +51,7 @@
             
         </div>
     </xsl:template>
-
+   
     
     
     
@@ -64,13 +64,11 @@
             
     </xsl:template>
         
-
         <xsl:template match="milestone">
             <span class="noteNum"><xsl:value-of select="count(preceding::note) + 1"/>
                 <span title="{@who}" class="note"><xsl:apply-templates select ="following-sibling::note[1]" mode="notes"/></span></span>
              
         </xsl:template>
-
         
 <xsl:template match="note"/>
 
