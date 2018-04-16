@@ -50,23 +50,27 @@
             
         </div>
     </xsl:template>
-    
-    <xsl:template match="/"
-    
+   
     
     
-    <xsl:template match="sp">
+    
+        <xsl:template match="sp">
 
                <div class="sp" id="{string-join(for $i in tokenize(@who, ' ') return substring-after($i, '#'), '_')}_{@n}">     
-                   <span><xsl:apply-templates select="@who"/> </span>  
+                   <span class="speaker"><xsl:apply-templates select="substring-after(@who, '#')"/> </span>  
                    <p><xsl:apply-templates/></p>
                </div>
             
     </xsl:template>
         
-        <xsl:templa
+        <xsl:template match="milestone">
+            <span class="noteNum"><xsl:value-of select="count(preceding::note) + 1"/>
+                <span title="{@who}" class="note"><xsl:value-of select ="following-sibling::note[1]"/></span></span>
+             
+        </xsl:template>
         
-    
+    <xsl:template match="note">
+    </xsl:template>
     
     
 </xsl:stylesheet>
