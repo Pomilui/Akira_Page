@@ -248,3 +248,14 @@ span.Cray{
     font-weight: bold;
     color: white;
 }
+span.noteNum{
+    font-weight: bold;
+    color: #ed4630;
+    padding: 0.5em;
+}
+span.note{display:none;
+}
+span.note.on{display:inline;
+position:relative;
+right:50px;
+}
