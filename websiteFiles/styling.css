@@ -201,12 +201,16 @@ div.sp{
     font-size: 22px;
     line-height: 2.0;
     margin: 0;
-    padding: 0;
+    padding-right: 3em;
     text-indent: 50px;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0.5%;
-    text-align: justify;
+    /*text-align: justify;*/
+    display:grid;
+    grid-template-rows: 1fr 1em;
+   grid-template-columns: 120px 100%;
+   grid-template-areas: "speaker  speech";
 }
 hr{
     color: #f00;
@@ -248,14 +252,19 @@ span.Cray{
     font-weight: bold;
     color: white;
 }
-span.noteNum{
+span.speaker{color:white; font-style: italic; grid-area: speaker;}
+div.sp p {grid-area: speech;}
+/*span.noteNum{
     font-weight: bold;
     color: #ed4630;
     padding: 0.5em;
+}*/
+span.note{/*display:none;*/
+display:block; font-style:italic; font-size:20px; color:turquoise; padding:1.5em; margin:auto;
 }
-span.note{display:none;
-}
-span.note.on{display:inline;
+span.note.on{background-color:white; color:green;
+
+/*display:inline;
 position:relative;
-right:50px;
+right:50px;*/
 }

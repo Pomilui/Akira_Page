@@ -13,12 +13,35 @@
                 <title>Akira</title>
                
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="stylesheet" type="text/css" href="styling.css"/>  
+                <link rel="stylesheet" type="text/css" href="styling.css"/>
+                <script type="text/javascript" src="checkBox.js">/**/</script>
+                
             </head>
             <body>
+                <div id="scriptbody">
                 <h1><xsl:apply-templates select="descendant::teiHeader//title"/></h1>
                 <h2>Cast of Characters in Speaking Order</h2>  
-                <table>
+                    <br />
+                    <div class="flex-container">
+                        <div class="space"></div>
+                        <div class="toggle">
+                            <fieldset>
+                                <legend>Click to Highlight</legend>
+                                <input type="checkbox" id="persNameToggle" />
+                                <span class="persNameToggle">Control Scenes</span>
+                                <input type="checkbox" id="locToggle" />
+                                <span class="locToggle">Usage of Powers</span>
+                                <input type="checkbox" id="currentToggle" />
+                                <span class="currentToggle">Notes</span>
+                                <input type="checkbox" id="dateToggle" />
+                                <span class="dateToggle">GIFs</span>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                   
+                <table id="test">
                     <tr>
                         <th>ID</th><th>Name</th><th>Speaking Order with Line #</th>
                     </tr>
@@ -27,10 +50,15 @@
                     </xsl:apply-templates>
                     
                 </table>
+                    <br/>
+                    <br/>
+                    <hr/>
+                    <br/>
+                    <br/>
    
 <h2>Akira Script</h2>   
    <xsl:apply-templates select="descendant::body"/>
-          
+                </div>  
             </body>
         </html>
     </xsl:template>
@@ -65,8 +93,9 @@
     </xsl:template>
         
         <xsl:template match="milestone">
-            <span class="noteNum"><xsl:value-of select="count(preceding::note) + 1"/>
-                <span title="{@who}" class="note"><xsl:apply-templates select ="following-sibling::note[1]" mode="notes"/></span></span>
+           <!-- <span class="noteNum"><xsl:value-of select="count(preceding::note) + 1"/>-->
+                <span title="{substring-after(@who, '#')}" class="note"><xsl:apply-templates select ="following-sibling::note[1]" mode="notes"/></span>
+               <!-- </span>-->
              
         </xsl:template>
         
