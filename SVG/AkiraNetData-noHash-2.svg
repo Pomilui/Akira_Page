@@ -1,43 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Akira: A Textual Analysis</title>
-        <link rel="stylesheet" type="text/css" href="styling.css" />
-    </head>
-    <body>
-        <div id="toplogo">
-            <img class="logo" src="images/banner.png" />
-            <br />
-        </div>
-        <header>
-            <div class="container">
-                <div class="logo-box">
-                    <a href="/">
-                        <img src="images/bike.png" />
-                    </a>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="AboutAkira.html">About Akira</a></li>
-                        <li><a href="Project.html">The Project</a></li>
-                        <li><a href="Code.html">The Code</a></li>
-                        <li><a href="AboutTheTeam.html">About the Team</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <br />
-        <div class="body">
-            <br />
-            <h2>Code Used</h2>
-            
-            <h3>Links</h3>
-            <div id="Linkage">    
-             <a href="Akira_Script.html">Akira Movie Script</a>         
-            </div>
-            
-<p>This network graph represents all characters who show up in Control Scenes: scenes where characters vie for, exert, or desire control.  After we ran XQuery over the script to create a tab-separated list, we used the excellent software Cytoscape:  </p>
-
+<?xml version="1.0" standalone="no"?>
 
 <svg 
      version="1.1"
@@ -3583,21 +3544,3 @@
 </g> <!-- transform -->
 </g> <!-- default stroke -->
 </svg> <!-- bounding box -->
-
-
-        </div>
-            <br />
-            <div class="license">
-                <span><strong>CREATED BY: </strong>
-                    <a href="https://github.com/quantum-satire">A. HALL,</a>
-                    <a href="https://github.com/Pomilui">N. PCSOLAR,</a>AND <a
-                        href="https://github.com/MarkTheShark01">M. RASCHIATORE</a>. <a
-                            href="https://github.com/Pomilui/Akira_Page">GITHUB</a>. <a rel="license"
-                                href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
-                                    alt="Creative Commons License" style="border-width:0"
-                                    src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a
-                                        rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
-                    <a href="http://newtfire.org/firebellies.html">POWERED BY FIREBELLIES</a>.</span>
-            </div>
-    </body>
-</html>
