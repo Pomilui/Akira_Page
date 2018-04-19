@@ -41,8 +41,9 @@ body div.container div.logo-box img{
     max-width: 960px;
     margin: auto;
 }
-img.Phooey{
-    
+div.blockimage img.Phooey{
+    display: block;
+    margin:auto;
 }
 nav{
     /*overflow: hidden;*/
