@@ -20,7 +20,8 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="AboutAkira.html">About Akira</a></li>
                         <li><a href="Project.html">The Project</a></li>
-                        <li><a href="Code.html">Script and Graphs</a></li>
+                      <li><a href="Akira_Script.html">Akira Script</a></li>
+                        <li><a href="Code.html">Analysis</a></li>
                         <li><a href="AboutTheTeam.html">About the Team</a></li>
                     </ul>
                 </nav>
@@ -29,15 +30,13 @@
         <br />
         <div class="body">
             <br />
-            <h2>Code Used</h2>
+            <h1>What We Discovered</h1>
             
-            <h3>Links</h3>
-            <div id="Linkage">    
-             <a href="Akira_Script.html">Akira Movie Script</a>         
-            </div>
-            
-<p>This network graph represents all characters who show up in Control Scenes: scenes where characters vie for, exert, or desire control.  After we ran XQuery over the script to create a tab-separated list, we used the excellent software Cytoscape:  </p>
+<p>This network graph represents all characters who show up together in Control Scenes, scenes where characters vie for, exert, or desire control.  After we ran XQuery over the script to create a tab-separated list, we used the excellent data visualization software Cytoscape to analyze the network and sort the network.</p>
+          <p>The two main controlling characters are clearly Tetsuo and the Colonel as they are in Control Scenes the most. </p>
 
+          
+              
 
 <svg 
      version="1.1"
@@ -47,9 +46,9 @@
      xmlns:ev="http://www.w3.org/2001/xml-events"
      x="0px"
      y="0px"
-     width="931px"
+     width="600px"
      height="384px"
-     viewBox="0 0 931 384"
+     viewBox="100 0 600 384"
      >
 <title></title>
 <desc>Creator: FreeHEP Graphics2D Driver Producer: org.freehep.graphicsio.svg.SVGGraphics2D Revision Source:  Date: Wednesday, April 18, 2018 11:43:13 AM EDT</desc>
@@ -3583,18 +3582,23 @@
 </g> <!-- transform -->
 </g> <!-- default stroke -->
 </svg> <!-- bounding box -->
+              
+              
+              <p>This bar chart shows how many times charactes imbued with "The Power" activate it on their own will.  Tetsuo disregards the advice from the Espers and Kei not to use The Power too much or risk losing control of it.  Akira, who only uses his power once, dramatically overwhelms all of the characters, since he has honed it to a degree far beyond the others.</p>
+              
+              
           <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900">
             <g transform="translate(200, 500)"><!--ebb: We've set transform="translate()" on the svg element above so you can plot the graph from 0,0. That makes it a lot easier to plot the SVG shapes, but it means that values above the X axis have to climb UP the screen from zero to negative numbers. The line below is the X axis, and we're setting it to start at 0,0 -->
-              <line x1="-4" y1="0" x2="700" y2="0" stroke="black" stroke-width="8"/><!--The line below is the Y axis, and it, too, starts at 0,0 -->
-              <line x1="0" y1="0" x2="0" y2="-450" stroke="black" stroke-width="8"/>
-              <text x="375" y="75" fill="Black">Characters</text>
-              <text x="-150" y="-350" fill="black">Number of Times 
+              <line x1="71" y1="0" x2="700" y2="0" stroke="black" stroke-width="8"/><!--The line below is the Y axis, and it, too, starts at 0,0 -->
+              <line x1="75" y1="0" x2="75" y2="-450" stroke="black" stroke-width="8"/>
+              <text x="375" y="95" fill="hsl(358, 370%, 30%)" style="font-size: 1.25em;">Characters</text>
+              <text x="-150" y="-350" fill="hsl(358, 370%, 30%)" style="font-size: 1.25em;">Number of Times 
                 <tspan x="-150" y="-325">Powers Are Used</tspan>
               </text>
-              <text x="400" y="-400" fill="Black">Power Usage</text><!--ebb: I remembered what we have to do to sort your bars! We need to sort the values based on their associated counts BEFORE we start using the $pos variable. I've done this by creating a new variable, $sortedPowers, that contains its own for-loop, and outputs the powernames in descending order. Then they are all available in sorted form in the loop we use to plot the graph parts. Note that the $treeMatch and $count variables aren't available in the other for loop: they go away once their loop is complete and the values all sorted. They're exactly the same values, though, that we see in the other loop. -->
+              <text x="400" y="-400" fill="hsl(358, 370%, 30%)" style="font-size: 1.25em;">Power Usage</text><!--ebb: I remembered what we have to do to sort your bars! We need to sort the values based on their associated counts BEFORE we start using the $pos variable. I've done this by creating a new variable, $sortedPowers, that contains its own for-loop, and outputs the powernames in descending order. Then they are all available in sorted form in the loop we use to plot the graph parts. Note that the $treeMatch and $count variables aren't available in the other for loop: they go away once their loop is complete and the values all sorted. They're exactly the same values, though, that we see in the other loop. -->
               <g>
                 <rect x="100" y="-374" width="50" height="370" fill="hsl(358, 370%, 30%)"/>
-                <text x="100" y="27">Tetsuo<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Tetsuo"/>
+                <text x="82" y="27" fill="white" style="font-size: 0.90em;">Tetsuo<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Tetsuo"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Tetsuo"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Tetsuo"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Tetsuo"/>
@@ -3634,7 +3638,7 @@
               </g>
               <g>
                 <rect x="200" y="-84" width="50" height="80" fill="hsl(358, 80%, 30%)"/>
-                <text x="200" y="27">Kiyoko<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Kiyoko"/>
+                <text x="190" y="27" fill="white" style="font-size: 0.90em;">Kiyoko<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Kiyoko"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Kiyoko"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Kiyoko"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Kiyoko"/>
@@ -3645,7 +3649,7 @@
               </g>
               <g>
                 <rect x="300" y="-74" width="50" height="70" fill="hsl(358, 70%, 30%)"/>
-                <text x="300" y="27">Takashi<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Takashi"/>
+                <text x="290" y="27" fill="white" style="font-size: 0.90em;">Takashi<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Takashi"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Takashi"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Takashi"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Takashi"/>
@@ -3655,7 +3659,7 @@
               </g>
               <g>
                 <rect x="400" y="-54" width="50" height="50" fill="hsl(358, 50%, 30%)"/>
-                <text x="400" y="27">Masaru<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Masaru"/>
+                <text x="398" y="27" fill="white" style="font-size: 0.90em;">Masaru<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Masaru"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Masaru"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Masaru"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Masaru"/>
@@ -3663,13 +3667,13 @@
               </g>
               <g>
                 <rect x="500" y="-34" width="50" height="30" fill="hsl(358, 30%, 30%)"/>
-                <text x="500" y="27">Kei<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Kei"/>
+                <text x="510" y="27" fill="white" style="font-size: 0.90em;">Kei<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Kei"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Kei"/>
                   <milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Kei"/>(3)</text>
               </g>
               <g>
                 <rect x="600" y="-14" width="50" height="10" fill="hsl(358, 10%, 30%)"/>
-                <text x="600" y="27">Akira<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Akira"/>(1)</text>
+                <text x="590" y="27" fill="white" style="font-size: 0.90em;">Akira<milestone xmlns="http://www.tei-c.org/ns/1.0" type="powers" who="Akira"/>(1)</text>
               </g>
             </g>
           </svg>
@@ -3678,8 +3682,9 @@
             <br />
             <div class="license">
                 <span><strong>CREATED BY: </strong>
+                  <a href="https://github.com/Pomilui">N. PCSOLAR,</a>
                     <a href="https://github.com/quantum-satire">A. HALL,</a>
-                    <a href="https://github.com/Pomilui">N. PCSOLAR,</a>AND <a
+                    AND <a
                         href="https://github.com/MarkTheShark01">M. RASCHIATORE</a>. <a
                             href="https://github.com/Pomilui/Akira_Page">GITHUB</a>. <a rel="license"
                                 href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img

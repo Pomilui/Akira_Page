@@ -2,7 +2,7 @@
     <g transform="translate(200, 500)"><!--ebb: We've set transform="translate()" on the svg element above so you can plot the graph from 0,0. That makes it a lot easier to plot the SVG shapes, but it means that values above the X axis have to climb UP the screen from zero to negative numbers. The line below is the X axis, and we're setting it to start at 0,0 -->
         <line x1="-4" y1="0" x2="700" y2="0" stroke="black" stroke-width="8"/><!--The line below is the Y axis, and it, too, starts at 0,0 -->
         <line x1="0" y1="0" x2="0" y2="-450" stroke="black" stroke-width="8"/>
-        <text x="375" y="75" fill="Black">Characters</text>
+        <text x="375" y="75" fill="Black" style="fill: black; stroke: none; font-size: 1em;">Characters</text>
         <text x="-150" y="-350" fill="black">Number of Times 
             <tspan x="-150" y="-325">Powers Are Used</tspan>
         </text>
