@@ -6,8 +6,13 @@ window.onload = init;
 function init() {
     var fieldset = document.getElementsByTagName('input');
     for (var i = 0; i < fieldset.length; i++) {
-        fieldset[i].addEventListener('click', toggleInput, false);
+        fieldset[i].addEventListener('click', changeColor, false);
     }
+}
+
+function changeColor() {
+var p1 = document.getElementById("colorToggle")
+{p1.style.backgroundColor = "skyblue";}
 }
 
 function toggleInput() {
