@@ -4,14 +4,28 @@ window.onload = init;
 
 
 function init() {
-var buttons = document.getElementsByTagName("button")
-buttons[0].addEventListener('click', changeColor,false)
+    var fieldset = document.getElementsByTagName('input');
+    for (var i = 0; i < fieldset.length; i++) {
+        fieldset[i].addEventListener('click', toggleInput, false);
     }
+}
 
-
-function changeColor2() {
-var pars = document.getElementsByTagName('spGrp')
-    for (var i = 0, length = pars.length; i < length; i++) {
-        pars[i].style.backgroundColor = "skyblue";
-    }   
+function toggleInput() {
+    var id = this.id;
+    switch (id) {
+        case "controlToggle": {
+            var commas = document.getElementsByClassName("controlToggle");
+            for (var i = 0; i < commas.length; i++) {
+                commas[i].classList.toggle("on")
+            }
+        };
+        break;
+        case "powersToggle": {
+            var periods = document.getElementsByClassName("power");
+            for (var i = 0; i < periods.length; i++) {
+                periods[i].classList.toggle("on")
+            }
+        };
+        break;
+    }
 }

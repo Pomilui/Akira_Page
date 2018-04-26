@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Teko');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
-html{
+html {
     background: url(images/background.png);
     background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
 }
-body{
+body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     font-size: 22px;
 }
-header{
+header {
     padding: 20px 0;
     background-color: #161417;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
 }
-header div.container{
+header div.container {
     /*padding: 0 20px;
     /\*max-width: 960px;*\/
     margin: 0 auto;*/
@@ -25,51 +25,51 @@ header div.container{
     align-items: flex-start;
     flex-direction: row;
 }
-header div.logo-box{
+header div.logo-box {
     flex: 1;
     margin-left: 0.5em;
 }
-.logo-box a{
+.logo-box a {
     outline: none;
     display: block;
 }
-header div.logo-box img{
+header div.logo-box img {
     max-width: 700px;
 }
-body div.container div.logo-box img{
+body div.container div.logo-box img {
     display: block;
     max-width: 960px;
     margin: auto;
 }
-div.blockimage img.Phooey{
+div.blockimage img.Phooey {
     display: block;
-    margin:auto;
+    margin: auto;
 }
-nav{
+nav {
     /*overflow: hidden;*/
     flex: 5;
 }
-nav ul{
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    
+
 }
-nav li{
+nav li {
     display: inline-block;
     margin-left: 25px;
     height: 70px;
     line-height: 70px;
     transition: .5s linear;
 }
-nav a{
+nav a {
     text-decoration: none;
     display: block;
     position: relative;
     color: #ed4630;
     text-transform: uppercase;
 }
-nav a:after{
+nav a:after {
     content: "";
     width: 0;
     height: 2px;
@@ -79,55 +79,55 @@ nav a:after{
     background: #2a6b6f;
     transition: width .5s linear;
 }
-nav a:hover:after{
+nav a:hover:after {
     width: 100%;
 }
 
-@media screen and (max-width : 660px){
-    header{
+@media screen and (max-width : 660px) {
+    header {
         text-align: center;
     }
-    .logo-box{
+    .logo-box {
         float: none;
         display: inline-block;
         margin: 0 0 16px 0;
     }
-    nav ul{
+    nav ul {
         float: none;
     }
-    nav li:first-of-type{
+    nav li:first-of-type {
         margin-left: 0;
     }
 }
-@media screen and (max-width : 550px){
-    nav{
+@media screen and (max-width : 550px) {
+    nav {
         overflow: visible;
     }
-    nav li{
+    nav li {
         display: block;
         margin: 0;
         height: 40px;
         line-height: 40px;
     }
-    nav li:hover{
+    nav li:hover {
         background: rgba(0, 0, 0, .1);
     }
-    nav a:after{
+    nav a:after {
         content: none;
     }
 }
-img.logo{
+img.logo {
     max-width: 100%;
     height: 50%;
     width: 50%;
 }
-div#toplogo{
+div#toplogo {
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(#2a6b6f, #161417);
 }
-div.license{
+div.license {
     color: #ed4630;
     text-align: center;
     bottom: 0;
@@ -136,24 +136,24 @@ div.license{
     width: 100%;
     margin: auto;
 }
-a{
+a {
     color: #2a6b6f;
 }
-div.body{
+div.body {
     background-color: #161417;
     width: 95%;
     margin: auto;
 }
-div#scriptbody{
+div#scriptbody {
     background-color: #161417;
     width: 85%;
     margin: auto;
 
 }
-p{
+p {
     font-family: 'Arial', sans-serif;
     color: #ed4630;
-       font-size: 22px;
+    font-size: 22px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -163,18 +163,18 @@ p{
     margin-bottom: 0.5%;
     text-align: justify;
 }
-div.body ul{
+div.body ul {
     list-style-type: circle;
     padding: 0.5em;
     margin-left: 5em;
 }
-div.body li{
+div.body li {
     color: #ed4630;
     font-size: 22px;
     line-height: 1.5;
-    
+
 }
-h1{
+h1 {
     font-family: 'Arial', sans-serif;
     color: #2a6b6f;
     line-height: 1.0;
@@ -183,7 +183,7 @@ h1{
     margin: 0;
     padding: 0;
 }
-h2{
+h2 {
     font-family: 'Arial', sans-serif;
     color: #ed4630;
     line-height: 1.0;
@@ -193,24 +193,24 @@ h2{
 }
 
 
-span.controlScene.on{
+span.controlScene.on {
     color: #d8a244;
     font-weight: 800;
 }
 
-span.controlSceneToggle{
+span.controlSceneToggle {
     color: #d8a244;
 }
 
-span.controlScene.on{
+span.controlScene.on {
     color: #d8a244;
     font-weight: 800;
 }
 
-span.controlSceneToggle{
+span.controlSceneToggle {
     color: #d8a244;
 }
-h3{
+h3 {
     font-family: arial, helvetica, sans-serif;
     font-size: 60px;
     color: #161417;
@@ -220,7 +220,7 @@ h3{
     margin: 0;
     padding: 0;
 }
-div.sp{
+div.sp {
     font-family: 'Arial', sans-serif;
     font-size: 22px;
     line-height: 2.0;
@@ -231,64 +231,88 @@ div.sp{
     margin-right: 5%;
     margin-bottom: 0.5%;
     /*text-align: justify;*/
-    display:grid;
+    display: grid;
     grid-template-rows: 1fr 1em;
-   grid-template-columns: 120px 100%;
-   grid-template-areas: "speaker  speech";
+    grid-template-columns: 120px 100%;
+    grid-template-areas: "speaker  speech";
 }
-hr{
+hr {
     color: #f00;
     background-color: #f00;
     height: 3px;
 }
-fieldset{
+fieldset {
     font-family: 'Arial', sans-serif;
     color: #2a6b6f;
 }
-div.toggle{
-     margin-left: 10%;
+div.toggle {
+    margin-left: 10%;
     margin-right: 10%;
 }
-blockimage{
+blockimage {
     display: block;
-    margin:auto;
+    margin: auto;
 }
-tr{
+tr {
     color: white;
-    
+
 }
-tr.fly{
+tr.fly {
     color: #ed4630;
-    
+
 }
-table#test{
+table#test {
     font-size: 24px;
-   text-align: center;
-   margin: auto;
+    text-align: center;
+    margin: auto;
 }
-div#Linkage{
-    margin:auto;
+div#Linkage {
+    margin: auto;
 }
-strong#Cray{
+strong#Cray {
     color: white;
 }
-span.Cray{
+span.Cray {
     font-weight: bold;
     color: white;
 }
-span.speaker{color:white; font-style: italic; grid-area: speaker;}
-div.sp p {grid-area: speech;}
+span.speaker {
+    color: white;
+    font-style: italic;
+    grid-area: speaker;
+}
+div.sp p {
+    grid-area: speech;
+}
 /*span.noteNum{
     font-weight: bold;
     color: #ed4630;
     padding: 0.5em;
 }*/
-span.note{/*display:none;*/
-display:block; font-style:italic; font-size:20px; color:turquoise; padding:1.5em; margin:auto;
+span.note { /*display:none;*/
+    display: block;
+    font-style: italic;
+    font-size: 20px;
+    color: turquoise;
+    padding: 1.5em;
+    margin: auto;
 }
-span.note.on{background-color:white; color:green;
+span.note.on {
+    background-color: white;
+    color: green;
 
-/*display:inline;
+    /*display:inline;
 position:relative;
 right:50px;*/
+}
+
+/* for JS toggle file */
+span.controlToggle.on {
+    
+    color: #d8a244;
+    font-weight: 800;
+}
+
+span.controlToggle {
+    color: green;
 }
