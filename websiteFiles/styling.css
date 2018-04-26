@@ -308,11 +308,11 @@ right:50px;*/
 
 /* for JS toggle file */
 span.controlToggle.on {
-    
-    color: #d8a244;
+    background-color:#2a6b6f;
+    color: white;
     font-weight: 800;
 }
 
 span.controlToggle {
-    color: green;
+    color: #ed4630;
 }
